@@ -291,42 +291,6 @@
     }
   }
 
-  .container01 {
-    .itens-fixed {
-      flex-direction: column;
-      padding: 1rem;
-      padding-top: 4rem;
-    }
-
-    #photo-profile {
-      height: 20rem;
-      width: 20rem;
-      margin-left: 22rem;
-    }
-
-    #main-function {
-      text-align: center;
-      font-size: 2rem;
-    }
-
-    .text-icons {
-      padding: 2rem 0 0 0.5rem;
-
-      .icon-social-midea {
-        margin-left: 1rem;
-        margin-bottom: 2rem;
-      }
-    }
-
-    .itens-animed {
-      display: none;
-    }
-
-    .text-animed {
-      width: 20ch;
-    }
-  }
-
   .container02 {
     grid-template-columns: 2fr 1fr;
 
@@ -409,43 +373,38 @@
   }
 
   .container01 {
+    width: auto;
+    height: auto;
+
     .itens-fixed {
+      display: flex;
+      align-items: center;
       flex-direction: column;
-      padding: 1rem;
-      padding-top: 4rem;
-    }
 
-    #photo-profile {
-      height: 15rem;
-      width: 15rem;
-      margin-left: 16rem;
-    }
-
-    #main-function {
-      text-align: center;
-      font-size: 2rem;
-    }
-
-    .text-icons {
-      padding: 2rem 0 0 0.5rem;
-
-      .icon-social-midea {
-        margin-left: 1rem;
+      #photo-profile {
+        width: 15rem;
+        height: 15rem;
       }
 
-      .area-icons-social-midea {
-        display: flex;
-        justify-content: center;
-        margin-left: -2rem;
+      .text-icons {
+        margin: -8rem 0 0 0;
+
+        #main-function {
+          text-align: center;
+          font-size: 1.8rem;
+          margin-left: -2rem;
+        }
+
+        .area-icons-social-midea {
+          display: flex;
+          justify-content: center;
+          margin-left: -3rem;
+        }
       }
     }
 
     .itens-animed {
       display: none;
-    }
-
-    .text-animed {
-      width: 20ch;
     }
   }
 
@@ -531,37 +490,38 @@
   }
 
   .container01 {
+    width: auto;
+    height: auto;
+
     .itens-fixed {
+      display: flex;
+      align-items: center;
       flex-direction: column;
-      padding: 1rem;
-      padding-top: 4rem;
-    }
 
-    #photo-profile {
-      height: 15rem;
-      width: 15rem;
-      margin-left: 5rem;
-    }
+      #photo-profile {
+        width: 15rem;
+        height: 15rem;
+      }
 
-    #main-function {
-      text-align: center;
-      font-size: 2rem;
-    }
+      .text-icons {
+        margin: -8rem 0 0 0;
 
-    .text-icons {
-      padding: 2rem 0 0 0.5rem;
+        #main-function {
+          text-align: center;
+          font-size: 1.8rem;
+          margin-left: -2rem;
+        }
 
-      .icon-social-midea {
-        margin-left: 1rem;
+        .area-icons-social-midea {
+          display: flex;
+          justify-content: center;
+          margin-left: -3rem;
+        }
       }
     }
 
     .itens-animed {
       display: none;
-    }
-
-    .text-animed {
-      width: 20ch;
     }
   }
 
@@ -646,37 +606,38 @@
   }
 
   .container01 {
+    width: auto;
+    height: auto;
+
     .itens-fixed {
+      display: flex;
+      align-items: center;
       flex-direction: column;
-      padding: 1rem;
-      padding-top: 4rem;
-    }
 
-    #photo-profile {
-      height: 13rem;
-      width: 13rem;
-      margin-left: 4.5rem;
-    }
+      #photo-profile {
+        width: 15rem;
+        height: 15rem;
+      }
 
-    #main-function {
-      text-align: center;
-      font-size: 2rem;
-    }
+      .text-icons {
+        margin: -8rem 0 0 0;
 
-    .text-icons {
-      padding: 2rem 0 0 0.5rem;
+        #main-function {
+          text-align: center;
+          font-size: 1.8rem;
+          margin-left: -2rem;
+        }
 
-      .icon-social-midea {
-        margin-left: 4.5rem;
+        .area-icons-social-midea {
+          display: flex;
+          justify-content: center;
+          margin-left: -3rem;
+        }
       }
     }
 
     .itens-animed {
       display: none;
-    }
-
-    .text-animed {
-      width: 20ch;
     }
   }
 
@@ -761,37 +722,38 @@
   }
 
   .container01 {
+    width: auto;
+    height: auto;
+
     .itens-fixed {
-      flex-direction: column;
-      padding: 1rem;
-      padding-top: 4rem;
-    }
-
-    #photo-profile {
-      height: 10rem;
-      width: 10rem;
+      display: flex;
       align-items: center;
-    }
+      flex-direction: column;
 
-    #main-function {
-      text-align: center !important;
-      font-size: 2rem;
-    }
+      #photo-profile {
+        width: 15rem;
+        height: 15rem;
+      }
 
-    .text-icons {
-      padding: 2rem 0 0 0.5rem;
+      .text-icons {
+        margin: -8rem 0 0 0;
 
-      .icon-social-midea {
-        margin-left: 3.4rem;
+        #main-function {
+          text-align: center;
+          font-size: 1.5rem;
+          margin-left: -2rem;
+        }
+
+        .area-icons-social-midea {
+          display: flex;
+          justify-content: center;
+          margin-left: -3rem;
+        }
       }
     }
 
     .itens-animed {
       display: none;
-    }
-
-    .text-animed {
-      width: 20ch;
     }
   }
 
