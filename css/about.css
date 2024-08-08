@@ -15,9 +15,6 @@
   font-size: 2rem;
   color: white !important;
 }
-.header #btn-area-header {
-  margin-left: 40rem;
-}
 .header .btn-header {
   color: white;
 }
@@ -76,9 +73,9 @@
   margin-top: 1rem;
   border-right: 4px solid;
   white-space: nowrap;
-  width: 49ch;
+  width: 50ch;
   overflow: hidden;
-  animation: animedMark 0.5s linear infinite, animedText steps(35) 2s;
+  animation: animedMark 0.5s linear infinite, animedText steps(37) 2s;
 }
 @keyframes animedMark {
   50% {
@@ -92,90 +89,146 @@
 }
 
 .container02 {
-  background-color: #292f36;
-  min-height: 100vh;
-  color: white;
-  width: 100%;
-  margin-top: 0;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  height: auto;
+  max-width: 94%;
+}
+.container02 .about {
   padding: 2rem;
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
+  background-color: #292f36;
+  color: white;
 }
-.container02 .text-about {
-  margin-bottom: 3rem;
+.container02 .about .about-title {
+  font-size: 2rem;
+}
+.container02 .about .about-text {
+  margin-top: 1rem;
+  font-size: 1rem;
+  text-align: justify;
+}
+.container02 .history {
+  background-color: white;
+  padding: 20px;
+}
+.container02 .history .timeline-card {
+  border-left: 1rem solid #292f36;
+  padding-left: 1rem;
+}
+.container02 .history .timeline-card-right {
+  margin-top: 2rem;
+  border-right: 1rem solid #292f36;
+  padding-right: 1rem;
+  text-align: right;
+}
+.container02 .history .text-time {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+.container02 .history .text-history {
+  font-size: 0.8rem;
+}
+.container02 .history .btn-timeline {
+  background-color: #292f36;
+  color: white;
 }
 
 .container03 {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
-.container03 .experience-title {
-  display: flex;
-  justify-content: center;
-  margin: 2rem 0 2rem 0;
-}
-.container03 .timeline {
+.container03 .area-texts-tecnologys {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding-top: 4rem;
 }
-.container03 .card-type-a {
-  box-sizing: border-box;
-  border-left: 2rem solid #292f36;
-  width: 40rem;
-  margin-left: 39%;
-  padding-left: 1rem;
+.container03 .main-area-icons-tecnologys {
+  width: 80%;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-left: 9rem;
 }
-.container03 .card-type-b {
-  box-sizing: border-box;
-  border-right: 2rem solid #292f36;
-  width: 40rem;
-  margin-right: 39rem;
-  text-align: right;
-  padding-right: 1rem;
+.container03 .area-icons-tecnologys {
+  display: inline-block;
+  animation: anima 20s linear infinite;
+}
+@keyframes anima {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
-.footer {
+.container04 {
   background-color: #292f36;
+  padding: 5rem 0 5rem 0;
   color: white;
-  padding-bottom: 0.3rem;
-}
-.footer .content-footer {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 1rem;
+  flex-direction: column;
 }
-.footer .content-footer .div-curriculo {
+.container04 .area-cards {
+  margin-top: 3rem;
   display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
 }
-.footer .content-footer #curriculo {
-  margin-left: 0.3rem;
-}
-.footer .content-footer .div-curriculo a {
-  text-decoration: none;
-  color: inherit;
-}
-.footer .content-footer .icon-social-midea {
-  color: white;
+.container04 .card-body {
   transition: color 0.3s ease;
   cursor: pointer;
   vertical-align: middle;
-  margin-right: 2rem;
 }
-.footer .content-footer .div-curriculo a:hover .icon-social-midea {
-  color: white;
+.container04 .card-link {
+  text-decoration: none !important;
+  color: #292f36;
 }
-.footer .content-footer .div-curriculo a:visited .icon-social-midea {
-  color: white;
+.container04 .card-link a:hover .card-body {
+  color: #292f36 !important;
 }
-.footer .content-footer .div-curriculo a:active .icon-social-midea {
-  color: white;
+.container04 .card-link a:visited .card-body {
+  color: #292f36 !important;
+}
+.container04 .card-link a:active .card-body {
+  color: #292f36 !important;
+}
+.container04 .btn-card {
+  margin-top: 1rem !important;
+}
+
+.footer {
+  background-color: white;
+  color: #292f36;
+  margin: 1rem 0 0 2rem;
+}
+.footer .content-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.footer .content-footer .footer-web {
+  margin-left: 0.3rem;
+  padding-bottom: 1rem;
+}
+.footer .content-footer .footer-web a {
+  text-decoration: none;
+}
+.footer .content-footer .footer-web a:hover {
+  color: #292f36;
+}
+.footer .content-footer .footer-web a:visited {
+  color: #292f36;
+}
+.footer .content-footer .footer-web a:active {
+  color: #292f36;
 }
 
 @media (max-width: 1025px) {
@@ -189,35 +242,74 @@
   .header .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
   }
-  .header #btn-area-header {
-    margin-left: 30rem;
+  .container01 {
+    width: auto;
+    height: auto;
   }
-  .container02 {
+  .container01 .itens-fixed {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .container01 .itens-fixed #photo-profile {
+    width: 15rem;
+    height: 15rem;
+  }
+  .container01 .itens-fixed .text-icons {
+    margin: -8rem 0 0 0;
+  }
+  .container01 .itens-fixed .text-icons #main-function {
     text-align: center;
-    font-size: 15px;
+    font-size: 1.8rem;
+    margin-left: -2rem;
   }
-  .container03 .experience-title {
+  .container01 .itens-fixed .text-icons .area-icons-social-midea {
     display: flex;
     justify-content: center;
-    margin: 2rem 0 2rem 0;
+    margin-left: -3rem;
+  }
+  .container01 .itens-animed {
+    display: none;
+  }
+  .container02 {
+    grid-template-columns: 2fr 1fr;
+  }
+  .container02 .about .about-title {
+    font-size: 1.5rem;
+  }
+  .container02 .about .about-text {
+    font-size: 0.9rem;
+  }
+  .container02 .history .text-time {
+    font-size: 1.2rem;
+  }
+  .container02 .history .text-history {
+    font-size: 0.7rem;
+  }
+  .container03 .text-tecnologys {
     text-align: center;
+    margin: 1rem 2rem 0 2rem;
   }
-  .container03 .card-type-a {
-    box-sizing: border-box;
-    width: 19rem;
-    padding-right: 1rem;
-    margin-left: 16rem;
+  .container03 .main-area-icons-tecnologys {
+    width: 100%;
+    margin-left: 0;
   }
-  .container03 .card-type-b {
-    box-sizing: border-box;
-    width: 19rem;
-    text-align: right;
-    padding-right: 1rem;
-    margin-left: 21rem;
+  .container04 {
+    text-align: center;
+    padding: 3rem 0;
+  }
+  .container04 .area-cards {
+    flex-direction: column;
+    gap: 2rem;
   }
   .footer {
-    text-align: center;
     font-size: 14px;
+  }
+  .footer .content-footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: -2rem;
   }
 }
 @media (max-width: 769px) {
@@ -268,31 +360,44 @@
     display: none;
   }
   .container02 {
+    grid-template-columns: 2fr 1fr;
+  }
+  .container02 .about .about-title {
+    font-size: 1.5rem;
+  }
+  .container02 .about .about-text {
+    font-size: 0.9rem;
+  }
+  .container02 .history .text-time {
+    font-size: 1.2rem;
+  }
+  .container02 .history .text-history {
+    font-size: 0.7rem;
+  }
+  .container03 .text-tecnologys {
     text-align: center;
-    font-size: 15px;
+    margin: 1rem 2rem 0 2rem;
   }
-  .container03 .experience-title {
-    display: flex;
-    justify-content: center;
-    margin: 2rem 0 2rem 0;
+  .container03 .main-area-icons-tecnologys {
+    width: 100%;
+    margin-left: 0;
+  }
+  .container04 {
     text-align: center;
+    padding: 3rem 0;
   }
-  .container03 .card-type-a {
-    box-sizing: border-box;
-    width: 19rem;
-    padding-right: 1rem;
-    margin-left: 16rem;
-  }
-  .container03 .card-type-b {
-    box-sizing: border-box;
-    width: 19rem;
-    text-align: right;
-    padding-right: 1rem;
-    margin-left: 21rem;
+  .container04 .area-cards {
+    flex-direction: column;
+    gap: 2rem;
   }
   .footer {
-    text-align: center;
     font-size: 14px;
+  }
+  .footer .content-footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: -2rem;
   }
 }
 @media (max-width: 426px) {
@@ -343,31 +448,43 @@
     display: none;
   }
   .container02 {
+    grid-template-columns: 1fr;
+  }
+  .container02 .about .about-title {
+    font-size: 1.5rem;
+  }
+  .container02 .about .about-text {
+    font-size: 0.9rem;
+  }
+  .container02 .history .text-time {
+    font-size: 1.2rem;
+  }
+  .container02 .history .text-history {
+    font-size: 0.7rem;
+  }
+  .container03 .text-tecnologys {
     text-align: center;
-    font-size: 15px;
+    margin: 1rem 2rem 0 2rem;
   }
-  .container03 .experience-title {
-    display: flex;
-    justify-content: center;
-    margin: 2rem 0 2rem 0;
-    text-align: center;
+  .container03 .main-area-icons-tecnologys {
+    width: 100%;
+    margin-left: 0;
   }
-  .container03 .card-type-a {
-    box-sizing: border-box;
-    width: 19rem;
-    padding-right: 1rem;
-    margin-left: 2rem;
+  .container04 {
+    padding: 3rem 0;
   }
-  .container03 .card-type-b {
-    box-sizing: border-box;
-    width: 19rem;
-    text-align: right;
-    padding-right: 1rem;
-    margin-left: 40rem;
+  .container04 .area-cards {
+    flex-direction: column;
+    gap: 2rem;
   }
   .footer {
-    text-align: center;
     font-size: 14px;
+  }
+  .footer .content-footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: -2rem;
   }
 }
 @media (max-width: 376px) {
@@ -418,31 +535,43 @@
     display: none;
   }
   .container02 {
+    grid-template-columns: 1fr;
+  }
+  .container02 .about .about-title {
+    font-size: 1.5rem;
+  }
+  .container02 .about .about-text {
+    font-size: 0.9rem;
+  }
+  .container02 .history .text-time {
+    font-size: 1.2rem;
+  }
+  .container02 .history .text-history {
+    font-size: 0.7rem;
+  }
+  .container03 .text-tecnologys {
     text-align: center;
-    font-size: 15px;
+    margin: 1rem 2rem 0 2rem;
   }
-  .container03 .experience-title {
-    display: flex;
-    justify-content: center;
-    margin: 2rem 0 2rem 0;
-    text-align: center;
+  .container03 .main-area-icons-tecnologys {
+    width: 100%;
+    margin-left: 0;
   }
-  .container03 .card-type-a {
-    box-sizing: border-box;
-    width: 19rem;
-    padding-right: 1rem;
-    margin-left: -1rem;
+  .container04 {
+    padding: 3rem 0;
   }
-  .container03 .card-type-b {
-    box-sizing: border-box;
-    width: 19rem;
-    text-align: right;
-    padding-right: 1rem;
-    margin-left: 40rem;
+  .container04 .area-cards {
+    flex-direction: column;
+    gap: 2rem;
   }
   .footer {
-    text-align: center;
-    font-size: 10px;
+    font-size: 14px;
+  }
+  .footer .content-footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: -2rem;
   }
 }
 @media (max-width: 321px) {
@@ -493,31 +622,43 @@
     display: none;
   }
   .container02 {
+    grid-template-columns: 1fr;
+  }
+  .container02 .about .about-title {
+    font-size: 1.5rem;
+  }
+  .container02 .about .about-text {
+    font-size: 0.9rem;
+  }
+  .container02 .history .text-time {
+    font-size: 1.2rem;
+  }
+  .container02 .history .text-history {
+    font-size: 0.7rem;
+  }
+  .container03 .text-tecnologys {
     text-align: center;
-    font-size: 15px;
+    margin: 1rem 2rem 0 2rem;
   }
-  .container03 .experience-title {
-    display: flex;
-    justify-content: center;
-    margin: 2rem 0 2rem 0;
-    text-align: center;
+  .container03 .main-area-icons-tecnologys {
+    width: 100%;
+    margin-left: 0;
   }
-  .container03 .card-type-a {
-    box-sizing: border-box;
-    width: 19rem;
-    padding-right: 1rem;
-    margin-left: -1rem;
+  .container04 {
+    padding: 3rem 0;
   }
-  .container03 .card-type-b {
-    box-sizing: border-box;
-    width: 19rem;
-    text-align: right;
-    padding-right: 1rem;
-    margin-left: 40rem;
+  .container04 .area-cards {
+    flex-direction: column;
+    gap: 2rem;
   }
   .footer {
-    text-align: center;
-    font-size: 10px;
+    font-size: 14px;
+  }
+  .footer .content-footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: -2rem;
   }
 }
 
