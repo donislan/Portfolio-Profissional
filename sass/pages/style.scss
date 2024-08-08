@@ -1,0 +1,853 @@
+@import "../communElements/communElements.scss";
+@import "../communElements/variabels.scss";
+
+.header {
+  font-size: 14px !important;
+  font-weight: bold !important;
+  background-color: $main-color !important;
+  width: 100%;
+
+  #title-header {
+    margin-left: 2rem;
+    font-size: 2rem;
+    color: white !important;
+  }
+
+  #btn-area-header {
+    margin-left: 40rem;
+  }
+
+  .btn-header {
+    color: white;
+  }
+}
+
+.container01 {
+  padding-top: 3rem;
+  min-height: 100vh;
+  background-image: url(../../images/BG\ PRINCIPAL.png);
+
+  .itens-fixed {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    color: white;
+    padding-top: 6rem;
+  }
+
+  #photo-profile {
+    margin-top: -3rem;
+    border-radius: 50%;
+    height: 29rem;
+    border: 4px solid white;
+  }
+
+  #main-function {
+    font-size: 3rem;
+  }
+
+  .text-icons {
+    padding: 9rem 0 0 2rem;
+  }
+
+  .itens-animed {
+    display: flex;
+    justify-content: center;
+    margin-left: 32rem;
+    margin-top: -4rem;
+  }
+
+  .text-icons a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .icon-social-midea {
+    color: white;
+    transition: color 0.3s ease;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-left: 2rem;
+  }
+
+  .text-icons a:hover .icon-social-midea {
+    color: white;
+  }
+
+  .text-icons a:visited .icon-social-midea {
+    color: white;
+  }
+
+  .text-icons a:active .icon-social-midea {
+    color: white;
+  }
+
+  .text-animed {
+    margin-top: 1rem;
+    border-right: 4px solid;
+    white-space: nowrap;
+    width: 50ch;
+    overflow: hidden;
+    animation: animedMark 0.5s linear infinite, animedText steps(37) 2s;
+  }
+
+  @keyframes animedMark {
+    50% {
+      border-right: transparent;
+    }
+  }
+
+  @keyframes animedText {
+    0% {
+      width: 0;
+    }
+  }
+}
+
+.container02 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  height: auto;
+  max-width: 94%;
+
+  .about {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: $main-color;
+    color: white;
+
+    .about-title {
+      font-size: 2rem;
+    }
+
+    .about-text {
+      margin-top: 1rem;
+      font-size: 1rem;
+      text-align: justify;
+    }
+  }
+
+  .history {
+    background-color: white;
+    padding: 20px;
+
+    .timeline-card {
+      border-left: 1rem solid $main-color;
+      padding-left: 1rem;
+    }
+
+    .timeline-card-right {
+      margin-top: 2rem;
+      border-right: 1rem solid $main-color;
+      padding-right: 1rem;
+      text-align: right;
+    }
+
+    .text-time {
+      margin-top: 1rem;
+      font-size: 1.5rem;
+    }
+
+    .text-history {
+      font-size: 0.8rem;
+    }
+
+    .btn-timeline {
+      background-color: $main-color;
+      color: white;
+    }
+  }
+}
+
+.container03 {
+  margin-bottom: 3rem;
+
+  .area-texts-tecnologys {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 4rem;
+  }
+
+  .main-area-icons-tecnologys {
+    width: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-left: 9rem;
+  }
+
+  .area-icons-tecnologys {
+    display: inline-block;
+    animation: anima 20s linear infinite;
+
+    @keyframes anima {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+  }
+}
+
+.container04 {
+  background-color: $main-color;
+  padding: 5rem 0 5rem 0;
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .area-cards {
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+  }
+
+  .card-body {
+    transition: color 0.3s ease;
+    cursor: pointer;
+    vertical-align: middle;
+  }
+
+  .card-link {
+    text-decoration: none !important;
+    color: $main-color;
+  }
+
+  .card-link a:hover .card-body {
+    color: $main-color !important;
+  }
+
+  .card-link a:visited .card-body {
+    color: $main-color !important;
+  }
+
+  .card-link a:active .card-body {
+    color: $main-color !important;
+  }
+
+  .btn-card {
+    margin-top: 1rem !important;
+  }
+}
+
+.footer {
+  background-color: white;
+  color: $main-color;
+  margin: 1rem 0 0 2rem;
+
+  .content-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .footer-web {
+      margin-left: 0.3rem;
+      padding-bottom: 1rem;
+
+      a {
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: $main-color;
+      }
+
+      a:visited {
+        color: $main-color;
+      }
+
+      a:active {
+        color: $main-color;
+      }
+    }
+  }
+}
+
+@media (max-width: 1025px) {
+  .header {
+    font-size: 12px !important;
+
+    #title-header {
+      margin-left: 0.5rem;
+      font-size: 1.3rem;
+    }
+
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+
+    #btn-area-header {
+      margin-left: 20rem;
+    }
+  }
+
+  .container01 {
+    .itens-fixed {
+      flex-direction: column;
+      padding: 1rem;
+      padding-top: 4rem;
+    }
+
+    #photo-profile {
+      height: 20rem;
+      width: 20rem;
+      margin-left: 22rem;
+    }
+
+    #main-function {
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    .text-icons {
+      padding: 2rem 0 0 0.5rem;
+
+      .icon-social-midea {
+        margin-left: 1rem;
+        margin-bottom: 2rem;
+      }
+    }
+
+    .itens-animed {
+      display: none;
+    }
+
+    .text-animed {
+      width: 20ch;
+    }
+  }
+
+  .container02 {
+    grid-template-columns: 2fr 1fr;
+
+    .about {
+      .about-title {
+        font-size: 1.5rem;
+      }
+
+      .about-text {
+        font-size: 0.9rem;
+      }
+    }
+
+    .history {
+      .text-time {
+        font-size: 1.2rem;
+      }
+
+      .text-history {
+        font-size: 0.7rem;
+      }
+    }
+  }
+
+  .container03 {
+    .text-tecnologys {
+      text-align: center;
+      margin: 1rem 2rem 0 2rem;
+    }
+
+    .main-area-icons-tecnologys {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+
+  .container04 {
+    text-align: center;
+    padding: 3rem 0;
+
+    .area-cards {
+      flex-direction: column;
+      gap: 2rem;
+    }
+  }
+
+  .footer {
+    font-size: 14px;
+
+    .content-footer {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin-left: -2rem;
+    }
+  }
+}
+
+@media (max-width: 769px) {
+  .header {
+    font-size: 12px !important;
+
+    #title-header {
+      margin-left: 0.5rem;
+      font-size: 1.3rem;
+    }
+
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+
+    .nav-link {
+      text-align: center !important;
+    }
+
+    #btn-area-header {
+      margin-left: 0;
+      margin-top: 1rem;
+    }
+  }
+
+  .container01 {
+    .itens-fixed {
+      flex-direction: column;
+      padding: 1rem;
+      padding-top: 4rem;
+    }
+
+    #photo-profile {
+      height: 15rem;
+      width: 15rem;
+      margin-left: 16rem;
+    }
+
+    #main-function {
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    .text-icons {
+      padding: 2rem 0 0 0.5rem;
+
+      .icon-social-midea {
+        margin-left: 1rem;
+      }
+
+      .area-icons-social-midea {
+        display: flex;
+        justify-content: center;
+        margin-left: -2rem;
+      }
+    }
+
+    .itens-animed {
+      display: none;
+    }
+
+    .text-animed {
+      width: 20ch;
+    }
+  }
+
+  .container02 {
+    grid-template-columns: 2fr 1fr;
+
+    .about {
+      .about-title {
+        font-size: 1.5rem;
+      }
+
+      .about-text {
+        font-size: 0.9rem;
+      }
+    }
+
+    .history {
+      .text-time {
+        font-size: 1.2rem;
+      }
+
+      .text-history {
+        font-size: 0.7rem;
+      }
+    }
+  }
+
+  .container03 {
+    .text-tecnologys {
+      text-align: center;
+      margin: 1rem 2rem 0 2rem;
+    }
+
+    .main-area-icons-tecnologys {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+
+  .container04 {
+    text-align: center;
+    padding: 3rem 0;
+
+    .area-cards {
+      flex-direction: column;
+      gap: 2rem;
+    }
+  }
+
+  .footer {
+    font-size: 14px;
+
+    .content-footer {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin-left: -2rem;
+    }
+  }
+}
+
+@media (max-width: 426px) {
+  .header {
+    font-size: 12px !important;
+
+    #title-header {
+      margin-left: 0.5rem;
+      font-size: 1.3rem;
+    }
+
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+
+    .nav-link {
+      text-align: center !important;
+    }
+
+    #btn-area-header {
+      margin-left: 0;
+      margin-top: 1rem;
+    }
+  }
+
+  .container01 {
+    .itens-fixed {
+      flex-direction: column;
+      padding: 1rem;
+      padding-top: 4rem;
+    }
+
+    #photo-profile {
+      height: 15rem;
+      width: 15rem;
+      margin-left: 5rem;
+    }
+
+    #main-function {
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    .text-icons {
+      padding: 2rem 0 0 0.5rem;
+
+      .icon-social-midea {
+        margin-left: 1rem;
+      }
+    }
+
+    .itens-animed {
+      display: none;
+    }
+
+    .text-animed {
+      width: 20ch;
+    }
+  }
+
+  .container02 {
+    grid-template-columns: 1fr;
+
+    .about {
+      .about-title {
+        font-size: 1.5rem;
+      }
+
+      .about-text {
+        font-size: 0.9rem;
+      }
+    }
+
+    .history {
+      .text-time {
+        font-size: 1.2rem;
+      }
+
+      .text-history {
+        font-size: 0.7rem;
+      }
+    }
+  }
+
+  .container03 {
+    .text-tecnologys {
+      text-align: center;
+      margin: 1rem 2rem 0 2rem;
+    }
+
+    .main-area-icons-tecnologys {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+
+  .container04 {
+    padding: 3rem 0;
+
+    .area-cards {
+      flex-direction: column;
+      gap: 2rem;
+    }
+  }
+
+  .footer {
+    font-size: 14px;
+
+    .content-footer {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin-left: -2rem;
+    }
+  }
+}
+
+@media (max-width: 376px) {
+  .header {
+    font-size: 12px !important;
+
+    #title-header {
+      margin-left: 0.5rem;
+      font-size: 1.3rem;
+    }
+
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+
+    .nav-link {
+      text-align: center !important;
+    }
+
+    #btn-area-header {
+      margin-left: 0;
+      margin-top: 1rem;
+    }
+  }
+
+  .container01 {
+    .itens-fixed {
+      flex-direction: column;
+      padding: 1rem;
+      padding-top: 4rem;
+    }
+
+    #photo-profile {
+      height: 13rem;
+      width: 13rem;
+      margin-left: 4.5rem;
+    }
+
+    #main-function {
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    .text-icons {
+      padding: 2rem 0 0 0.5rem;
+
+      .icon-social-midea {
+        margin-left: 4.5rem;
+      }
+    }
+
+    .itens-animed {
+      display: none;
+    }
+
+    .text-animed {
+      width: 20ch;
+    }
+  }
+
+  .container02 {
+    grid-template-columns: 1fr;
+
+    .about {
+      .about-title {
+        font-size: 1.5rem;
+      }
+
+      .about-text {
+        font-size: 0.9rem;
+      }
+    }
+
+    .history {
+      .text-time {
+        font-size: 1.2rem;
+      }
+
+      .text-history {
+        font-size: 0.7rem;
+      }
+    }
+  }
+
+  .container03 {
+    .text-tecnologys {
+      text-align: center;
+      margin: 1rem 2rem 0 2rem;
+    }
+
+    .main-area-icons-tecnologys {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+
+  .container04 {
+    padding: 3rem 0;
+
+    .area-cards {
+      flex-direction: column;
+      gap: 2rem;
+    }
+  }
+
+  .footer {
+    font-size: 14px;
+
+    .content-footer {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin-left: -2rem;
+    }
+  }
+}
+
+@media (max-width: 321px) {
+  .header {
+    font-size: 12px !important;
+
+    #title-header {
+      margin-left: 0.5rem;
+      font-size: 1rem;
+    }
+
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+
+    .nav-link {
+      text-align: center !important;
+    }
+
+    #btn-area-header {
+      margin-left: 0;
+      margin-top: 1rem;
+    }
+  }
+
+  .container01 {
+    .itens-fixed {
+      flex-direction: column;
+      padding: 1rem;
+      padding-top: 4rem;
+    }
+
+    #photo-profile {
+      height: 10rem;
+      width: 10rem;
+      align-items: center;
+    }
+
+    #main-function {
+      text-align: center !important;
+      font-size: 2rem;
+    }
+
+    .text-icons {
+      padding: 2rem 0 0 0.5rem;
+
+      .icon-social-midea {
+        margin-left: 3.4rem;
+      }
+    }
+
+    .itens-animed {
+      display: none;
+    }
+
+    .text-animed {
+      width: 20ch;
+    }
+  }
+
+  .container02 {
+    grid-template-columns: 1fr;
+
+    .about {
+      .about-title {
+        font-size: 1.5rem;
+      }
+
+      .about-text {
+        font-size: 0.9rem;
+      }
+    }
+
+    .history {
+      .text-time {
+        font-size: 1.2rem;
+      }
+
+      .text-history {
+        font-size: 0.7rem;
+      }
+    }
+  }
+
+  .container03 {
+    .text-tecnologys {
+      text-align: center;
+      margin: 1rem 2rem 0 2rem;
+    }
+
+    .main-area-icons-tecnologys {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+
+  .container04 {
+    padding: 3rem 0;
+
+    .area-cards {
+      flex-direction: column;
+      gap: 2rem;
+    }
+  }
+
+  .footer {
+    font-size: 14px;
+
+    .content-footer {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin-left: -2rem;
+    }
+  }
+}
