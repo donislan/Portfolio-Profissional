@@ -26,6 +26,7 @@
   padding-top: 3rem;
   min-height: 100vh;
   background-image: url(../images/bg-principal.jpg);
+  background-size: cover;
 }
 
 .container01 .itens-fixed {
