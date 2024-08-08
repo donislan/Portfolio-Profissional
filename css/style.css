@@ -27,6 +27,7 @@
   min-height: 100vh;
   background-image: url(../images/bg-principal.jpg);
 }
+
 .container01 .itens-fixed {
   display: flex;
   justify-content: center;
