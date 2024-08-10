@@ -23,7 +23,7 @@
 .container01 {
   padding-top: 3rem;
   min-height: 100vh;
-  background-image: url(../../images/bg-principal.jpg);
+  background-image: url(../images/bg-principal.jpg);
 }
 .container01 .itens-fixed {
   display: flex;
