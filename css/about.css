@@ -23,7 +23,7 @@
 .container01 {
   padding-top: 3rem;
   min-height: 100vh;
-  background-image: url(../images/bg-principal.jpg);
+  background-image: url(../../images/bg-principal.jpg);
 }
 .container01 .itens-fixed {
   display: flex;
@@ -313,6 +313,81 @@
     text-align: right;
     padding-right: 1rem;
     margin-left: 21rem;
+  }
+  .footer {
+    text-align: center;
+    font-size: 14px;
+  }
+}
+@media (max-width: 595px) {
+  .header {
+    font-size: 12px !important;
+  }
+  .header #title-header {
+    margin-left: 0.5rem;
+    font-size: 1.3rem;
+  }
+  .header .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+  .header .nav-link {
+    text-align: center !important;
+  }
+  .header #btn-area-header {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+  .container01 {
+    width: auto;
+    height: auto;
+  }
+  .container01 .itens-fixed {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .container01 .itens-fixed #photo-profile {
+    width: 15rem;
+    height: 15rem;
+  }
+  .container01 .itens-fixed .text-icons {
+    margin: -8rem 0 0 0;
+  }
+  .container01 .itens-fixed .text-icons #main-function {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-left: -2rem;
+  }
+  .container01 .itens-fixed .text-icons .area-icons-social-midea {
+    display: flex;
+    justify-content: center;
+    margin-left: -3rem;
+  }
+  .container01 .itens-animed {
+    display: none;
+  }
+  .container02 {
+    text-align: center;
+    font-size: 15px;
+  }
+  .container03 .experience-title {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 2rem 0;
+    text-align: center;
+  }
+  .container03 .card-type-a {
+    box-sizing: border-box;
+    width: 19rem;
+    padding-right: 1rem;
+    margin-left: 2rem;
+  }
+  .container03 .card-type-b {
+    box-sizing: border-box;
+    width: 19rem;
+    text-align: right;
+    padding-right: 1rem;
+    margin-left: 40rem;
   }
   .footer {
     text-align: center;
