@@ -332,7 +332,7 @@
     margin-top: 1rem;
   }
   .container01 {
-    height: 100vh;
+    height: 80vh;
     width: auto;
   }
   .container01 .itens-fixed {
@@ -420,7 +420,7 @@
     margin-top: 1rem;
   }
   .container01 {
-    height: 100vh;
+    height: 80vh;
     width: auto;
   }
   .container01 .itens-fixed {
@@ -449,7 +449,8 @@
     display: none;
   }
   .container02 {
-    grid-template-rows: 1fr;
+    display: flex;
+    flex-direction: column;
   }
   .container02 .about .about-title {
     font-size: 1.5rem;
@@ -507,7 +508,7 @@
     margin-top: 1rem;
   }
   .container01 {
-    height: 100vh;
+    height: 80vh;
     width: auto;
   }
   .container01 .itens-fixed {
@@ -589,7 +590,7 @@
     text-align: center !important;
   }
   .container01 {
-    height: 100vh;
+    height: 80vh;
     width: auto;
   }
   .container01 .itens-fixed {

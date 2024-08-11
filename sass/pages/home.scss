@@ -402,7 +402,7 @@
   }
 
   .container01 {
-    height: 100vh;
+    height: 80vh;
     width: auto;
 
     .itens-fixed {
@@ -519,7 +519,7 @@
   }
 
   .container01 {
-    height: 100vh;
+    height: 80vh;
     width: auto;
 
     .itens-fixed {
@@ -555,7 +555,8 @@
   }
 
   .container02 {
-    grid-template-rows: 1fr;
+    display: flex;
+    flex-direction: column;
 
     .about {
       .about-title {
@@ -635,7 +636,7 @@
   }
 
   .container01 {
-    height: 100vh;
+    height: 80vh;
     width: auto;
 
     .itens-fixed {
@@ -745,7 +746,7 @@
   }
 
   .container01 {
-    height: 100vh;
+    height: 80vh;
     width: auto;
 
     .itens-fixed {
