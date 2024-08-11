@@ -332,8 +332,8 @@
     margin-top: 1rem;
   }
   .container01 {
-    height: 95vh;
     width: auto;
+    height: auto;
   }
   .container01 .itens-fixed {
     display: flex;
@@ -420,8 +420,8 @@
     margin-top: 1rem;
   }
   .container01 {
-    height: 80vh;
     width: auto;
+    height: auto;
   }
   .container01 .itens-fixed {
     display: flex;
