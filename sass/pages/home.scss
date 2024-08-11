@@ -285,8 +285,8 @@
   }
 
   .container01 {
+    height: 100vh;
     width: auto;
-    height: auto;
 
     .itens-fixed {
       display: flex;
@@ -402,8 +402,8 @@
   }
 
   .container01 {
+    height: 100vh;
     width: auto;
-    height: auto;
 
     .itens-fixed {
       display: flex;
@@ -519,8 +519,8 @@
   }
 
   .container01 {
+    height: 100vh;
     width: auto;
-    height: auto;
 
     .itens-fixed {
       display: flex;
@@ -555,7 +555,7 @@
   }
 
   .container02 {
-    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
 
     .about {
       .about-title {
@@ -635,8 +635,8 @@
   }
 
   .container01 {
+    height: 100vh;
     width: auto;
-    height: auto;
 
     .itens-fixed {
       display: flex;
@@ -732,7 +732,6 @@
     font-size: 12px !important;
 
     #title-header {
-      margin-left: 0.5rem;
       font-size: 1rem;
     }
 
@@ -743,16 +742,11 @@
     .nav-link {
       text-align: center !important;
     }
-
-    #btn-area-header {
-      margin-left: 0;
-      margin-top: 1rem;
-    }
   }
 
   .container01 {
+    height: 100vh;
     width: auto;
-    height: auto;
 
     .itens-fixed {
       display: flex;
@@ -770,13 +764,11 @@
         #main-function {
           text-align: center;
           font-size: 1.5rem;
-          margin-left: -2rem;
         }
 
         .area-icons-social-midea {
           display: flex;
           justify-content: center;
-          margin-left: -3rem;
         }
       }
     }
