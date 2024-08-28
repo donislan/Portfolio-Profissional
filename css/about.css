@@ -23,7 +23,7 @@
 .container01 {
   padding-top: 3rem;
   min-height: 100vh;
-  background-image: url(../images/bg-principal.jpg);
+  background-image: url(../../images/bg-principal.jpg);
 }
 .container01 .itens-fixed {
   display: flex;
@@ -43,12 +43,6 @@
 }
 .container01 .text-icons {
   padding: 9rem 0 0 2rem;
-}
-.container01 .itens-animed {
-  display: flex;
-  justify-content: center;
-  margin-left: 32rem;
-  margin-top: -4rem;
 }
 .container01 .text-icons a {
   text-decoration: none;
@@ -70,28 +64,10 @@
 .container01 .text-icons a:active .icon-social-midea {
   color: white;
 }
-.container01 .text-animed {
-  margin-top: 1rem;
-  border-right: 4px solid;
-  white-space: nowrap;
-  width: 49ch;
-  overflow: hidden;
-  animation: animedMark 0.5s linear infinite, animedText steps(35) 2s;
-}
-@keyframes animedMark {
-  50% {
-    border-right: transparent;
-  }
-}
-@keyframes animedText {
-  0% {
-    width: 0;
-  }
-}
 
 .container02 {
   background-color: #292f36;
-  min-height: 100vh;
+  min-height: 20rem;
   color: white;
   width: 100%;
   margin-top: 0;
