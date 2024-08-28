@@ -21,7 +21,7 @@
 
 .container01 {
   padding-top: 3rem;
-  min-height: 100vh;
+  min-height: 20rem;
   background-image: url(../../images/bg-principal.jpg);
 
   .itens-fixed {
@@ -47,13 +47,6 @@
     padding: 9rem 0 0 2rem;
   }
 
-  .itens-animed {
-    display: flex;
-    justify-content: center;
-    margin-left: 32rem;
-    margin-top: -4rem;
-  }
-
   .text-icons a {
     text-decoration: none;
     color: inherit;
@@ -77,27 +70,6 @@
 
   .text-icons a:active .icon-social-midea {
     color: white;
-  }
-
-  .text-animed {
-    margin-top: 1rem;
-    border-right: 4px solid;
-    white-space: nowrap;
-    width: 50ch;
-    overflow: hidden;
-    animation: animedMark 0.5s linear infinite, animedText steps(37) 2s;
-  }
-
-  @keyframes animedMark {
-    50% {
-      border-right: transparent;
-    }
-  }
-
-  @keyframes animedText {
-    0% {
-      width: 0;
-    }
   }
 }
 
@@ -537,7 +509,7 @@
 
         #main-function {
           text-align: center;
-          font-size: 1.8rem;
+          font-size: 1.5rem;
           margin-left: -2rem;
         }
 
@@ -636,7 +608,7 @@
   }
 
   .container01 {
-    height: 80vh;
+    height: 32rem;
     width: auto;
 
     .itens-fixed {
@@ -673,6 +645,7 @@
 
   .container02 {
     grid-template-columns: 1fr;
+    margin-top: 2rem;
 
     .about {
       .about-title {
@@ -746,7 +719,7 @@
   }
 
   .container01 {
-    height: 80vh;
+    height: 30rem;
     width: auto;
 
     .itens-fixed {
@@ -781,6 +754,7 @@
 
   .container02 {
     grid-template-columns: 1fr;
+    margin-top: 2rem;
 
     .about {
       .about-title {
