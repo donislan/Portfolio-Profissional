@@ -152,16 +152,15 @@
   }
 
   .col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transition: transform 1s ease;
     margin-bottom: 2rem;
   }
 
-  .col p {
+  .name-tecnology {
     display: none;
-  }
-
-  .col:hover {
-    transform: translateY(-20%);
   }
 }
 

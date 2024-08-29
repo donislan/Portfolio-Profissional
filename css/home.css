@@ -132,14 +132,14 @@
   max-height: 5rem;
 }
 .container03 .col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   transition: transform 1s ease;
   margin-bottom: 2rem;
 }
-.container03 .col p {
+.container03 .name-tecnology {
   display: none;
-}
-.container03 .col:hover {
-  transform: translateY(-20%);
 }
 
 .container04 {
