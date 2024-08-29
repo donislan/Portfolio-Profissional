@@ -220,13 +220,60 @@
   margin: 1rem 0 0 2rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 
   .content-footer {
     display: flex;
     flex-direction: column;
     margin-top: 1rem;
 
+    .area-contact-card {
+      display: flex;
+      justify-content: center;
+    }
+
+    .card-contact {
+      background-color: $main-color;
+      display: flex;
+      width: 20rem;
+      border-radius: 0.2rem;
+
+      .area-img-card {
+        border-right: 1px solid #ffff;
+      }
+
+      .img-card {
+        width: 10rem;
+        border-radius: 50%;
+        padding: 1rem;
+      }
+
+      .area-number-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .text-number-card {
+        color: #ffffff;
+        text-align: center;
+      }
+
+      .btn-number-card {
+        background-color: #4e867b;
+        padding: 0.3rem;
+        color: #ffffff;
+        border-radius: 0.5rem;
+
+        &:hover {
+          background-color: #6eb2a4;
+        }
+      }
+    }
+
     .footer-lists {
+      margin-top: 2rem;
       display: flex;
       justify-content: space-around;
     }

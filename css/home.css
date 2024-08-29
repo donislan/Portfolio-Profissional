@@ -190,13 +190,52 @@
   margin: 1rem 0 0 2rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .footer .content-footer {
   display: flex;
   flex-direction: column;
   margin-top: 1rem;
 }
+.footer .content-footer .area-contact-card {
+  display: flex;
+  justify-content: center;
+}
+.footer .content-footer .card-contact {
+  background-color: #292f36;
+  display: flex;
+  width: 20rem;
+  border-radius: 0.2rem;
+}
+.footer .content-footer .card-contact .area-img-card {
+  border-right: 1px solid white;
+}
+.footer .content-footer .card-contact .img-card {
+  width: 10rem;
+  border-radius: 50%;
+  padding: 1rem;
+}
+.footer .content-footer .card-contact .area-number-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer .content-footer .card-contact .text-number-card {
+  color: #ffffff;
+  text-align: center;
+}
+.footer .content-footer .card-contact .btn-number-card {
+  background-color: #4e867b;
+  padding: 0.3rem;
+  color: #ffffff;
+  border-radius: 0.5rem;
+}
+.footer .content-footer .card-contact .btn-number-card:hover {
+  background-color: #6eb2a4;
+}
 .footer .content-footer .footer-lists {
+  margin-top: 2rem;
   display: flex;
   justify-content: space-around;
 }
