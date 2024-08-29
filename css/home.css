@@ -153,11 +153,14 @@
   align-items: center;
   flex-direction: column;
 }
+.container04 .title-projects {
+  padding: 0 0 2rem 2rem;
+}
 .container04 .area-cards {
-  margin-top: 3rem;
   display: flex;
+  justify-content: center;
+  gap: 4rem;
   flex-wrap: wrap;
-  gap: 5rem;
 }
 .container04 .card-body {
   transition: color 0.3s ease;

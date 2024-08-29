@@ -175,11 +175,15 @@
   align-items: center;
   flex-direction: column;
 
+  .title-projects {
+    padding: 0 0 2rem 2rem;
+  }
+
   .area-cards {
-    margin-top: 3rem;
     display: flex;
+    justify-content: center;
+    gap: 4rem;
     flex-wrap: wrap;
-    gap: 5rem;
   }
 
   .card-body {
