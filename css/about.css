@@ -98,18 +98,23 @@
   align-items: center;
   flex-direction: column;
 }
+.container03 .organized-timeline {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1240px;
+}
 .container03 .card-type-a {
   box-sizing: border-box;
   border-left: 2rem solid #292f36;
   width: 40rem;
-  margin-left: 39%;
   padding-left: 1rem;
+  margin-left: 38rem;
 }
 .container03 .card-type-b {
   box-sizing: border-box;
   border-right: 2rem solid #292f36;
   width: 40rem;
-  margin-right: 39rem;
   text-align: right;
   padding-right: 1rem;
 }
@@ -196,29 +201,27 @@
     text-align: center;
     font-size: 15px;
   }
-  .organized-timeline {
-    display: flex;
-    justify-content: center;
-    max-width: 1440px;
-  }
   .container03 .experience-title {
     display: flex;
     justify-content: center;
     margin: 2rem 0 2rem 0;
     text-align: center;
   }
+  .container03 .organized-timeline {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
   .container03 .card-type-a {
     box-sizing: border-box;
     width: 19rem;
-    padding-right: 1rem;
-    margin-left: 16rem;
+    margin-left: 19rem;
   }
   .container03 .card-type-b {
     box-sizing: border-box;
     width: 19rem;
     text-align: right;
-    padding-right: 1rem;
-    margin-left: 21rem;
+    margin-left: 2rem;
   }
   .footer {
     text-align: center;
@@ -268,9 +271,6 @@
     justify-content: center;
     margin-left: -3rem;
   }
-  .container01 .itens-animed {
-    display: none;
-  }
   .container02 {
     text-align: center;
     font-size: 15px;
@@ -282,18 +282,22 @@
     margin: 2rem 0 2rem 0;
     text-align: center;
   }
+  .container03 .organized-timeline {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
   .container03 .card-type-a {
     box-sizing: border-box;
     width: 19rem;
     padding-right: 1rem;
-    margin-left: 16rem;
+    margin-left: 19rem;
   }
   .container03 .card-type-b {
     box-sizing: border-box;
     width: 19rem;
     text-align: right;
     padding-right: 1rem;
-    margin-left: 21rem;
   }
   .footer {
     text-align: center;
@@ -358,18 +362,23 @@
     margin: 2rem 0 2rem 0;
     text-align: center;
   }
+  .container03 .organized-timeline {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
   .container03 .card-type-a {
     box-sizing: border-box;
     width: 19rem;
     padding-right: 1rem;
-    margin-left: 2rem;
+    margin-left: 0rem;
   }
   .container03 .card-type-b {
     box-sizing: border-box;
     width: 19rem;
     text-align: right;
     padding-right: 1rem;
-    margin-left: 40rem;
+    margin-left: 0rem;
   }
   .footer {
     text-align: center;
@@ -433,18 +442,23 @@
     margin: 2rem 0 2rem 0;
     text-align: center;
   }
+  .container03 .organized-timeline {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
   .container03 .card-type-a {
     box-sizing: border-box;
     width: 19rem;
     padding-right: 1rem;
-    margin-left: 2rem;
+    margin-left: 0rem;
   }
   .container03 .card-type-b {
     box-sizing: border-box;
     width: 19rem;
     text-align: right;
     padding-right: 1rem;
-    margin-left: 40rem;
+    margin-left: 0rem;
   }
   .footer {
     text-align: center;
@@ -509,18 +523,23 @@
     margin: 2rem 0 2rem 0;
     text-align: center;
   }
+  .container03 .organized-timeline {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
   .container03 .card-type-a {
     box-sizing: border-box;
     width: 19rem;
     padding-right: 1rem;
-    margin-left: -1rem;
+    margin-left: 0rem;
   }
   .container03 .card-type-b {
     box-sizing: border-box;
     width: 19rem;
     text-align: right;
     padding-right: 1rem;
-    margin-left: 40rem;
+    margin-left: 0rem;
   }
   .footer {
     text-align: center;
@@ -585,18 +604,23 @@
     margin: 2rem 0 2rem 0;
     text-align: center;
   }
+  .container03 .organized-timeline {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
   .container03 .card-type-a {
     box-sizing: border-box;
     width: 19rem;
     padding-right: 1rem;
-    margin-left: -1rem;
+    margin-left: 0rem;
   }
   .container03 .card-type-b {
     box-sizing: border-box;
     width: 19rem;
     text-align: right;
     padding-right: 1rem;
-    margin-left: 40rem;
+    margin-left: 0rem;
   }
   .footer {
     text-align: center;

@@ -109,19 +109,25 @@
     flex-direction: column;
   }
 
+  .organized-timeline {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1240px;
+  }
+
   .card-type-a {
     box-sizing: border-box;
     border-left: 2rem solid $main-color;
     width: 40rem;
-    margin-left: 39%;
     padding-left: 1rem;
+    margin-left: 38rem;
   }
 
   .card-type-b {
     box-sizing: border-box;
     border-right: 2rem solid $main-color;
     width: 40rem;
-    margin-right: 39rem;
     text-align: right;
     padding-right: 1rem;
   }
@@ -228,12 +234,6 @@
     font-size: 15px;
   }
 
-  .organized-timeline {
-    display: flex;
-    justify-content: center;
-    max-width: 1440px;
-  }
-
   .container03 {
     .experience-title {
       display: flex;
@@ -242,19 +242,23 @@
       text-align: center;
     }
 
+    .organized-timeline {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+
     .card-type-a {
       box-sizing: border-box;
       width: 19rem;
-      padding-right: 1rem;
-      margin-left: 16rem;
+      margin-left: 19rem;
     }
 
     .card-type-b {
       box-sizing: border-box;
       width: 19rem;
       text-align: right;
-      padding-right: 1rem;
-      margin-left: 21rem;
+      margin-left: 2rem;
     }
   }
 
@@ -316,10 +320,6 @@
         }
       }
     }
-
-    .itens-animed {
-      display: none;
-    }
   }
 
   .container02 {
@@ -336,11 +336,17 @@
       text-align: center;
     }
 
+    .organized-timeline {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+
     .card-type-a {
       box-sizing: border-box;
       width: 19rem;
       padding-right: 1rem;
-      margin-left: 16rem;
+      margin-left: 19rem;
     }
 
     .card-type-b {
@@ -348,7 +354,6 @@
       width: 19rem;
       text-align: right;
       padding-right: 1rem;
-      margin-left: 21rem;
     }
   }
 
@@ -428,15 +433,20 @@
       display: flex;
       justify-content: center;
       margin: 2rem 0 2rem 0;
-
       text-align: center;
+    }
+
+    .organized-timeline {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
     }
 
     .card-type-a {
       box-sizing: border-box;
       width: 19rem;
       padding-right: 1rem;
-      margin-left: 2rem;
+      margin-left: 0rem;
     }
 
     .card-type-b {
@@ -444,7 +454,7 @@
       width: 19rem;
       text-align: right;
       padding-right: 1rem;
-      margin-left: 40rem;
+      margin-left: 0rem;
     }
   }
 
@@ -523,15 +533,20 @@
       display: flex;
       justify-content: center;
       margin: 2rem 0 2rem 0;
-
       text-align: center;
+    }
+
+    .organized-timeline {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
     }
 
     .card-type-a {
       box-sizing: border-box;
       width: 19rem;
       padding-right: 1rem;
-      margin-left: 2rem;
+      margin-left: 0rem;
     }
 
     .card-type-b {
@@ -539,7 +554,7 @@
       width: 19rem;
       text-align: right;
       padding-right: 1rem;
-      margin-left: 40rem;
+      margin-left: 0rem;
     }
   }
 
@@ -620,15 +635,20 @@
       display: flex;
       justify-content: center;
       margin: 2rem 0 2rem 0;
-
       text-align: center;
+    }
+
+    .organized-timeline {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
     }
 
     .card-type-a {
       box-sizing: border-box;
       width: 19rem;
       padding-right: 1rem;
-      margin-left: -1rem;
+      margin-left: 0rem;
     }
 
     .card-type-b {
@@ -636,7 +656,7 @@
       width: 19rem;
       text-align: right;
       padding-right: 1rem;
-      margin-left: 40rem;
+      margin-left: 0rem;
     }
   }
 
@@ -716,15 +736,20 @@
       display: flex;
       justify-content: center;
       margin: 2rem 0 2rem 0;
-
       text-align: center;
+    }
+
+    .organized-timeline {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
     }
 
     .card-type-a {
       box-sizing: border-box;
       width: 19rem;
       padding-right: 1rem;
-      margin-left: -1rem;
+      margin-left: 0rem;
     }
 
     .card-type-b {
@@ -732,7 +757,7 @@
       width: 19rem;
       text-align: right;
       padding-right: 1rem;
-      margin-left: 40rem;
+      margin-left: 0rem;
     }
   }
 
