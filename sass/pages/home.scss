@@ -214,14 +214,21 @@
   background-color: white;
   color: $main-color;
   margin: 1rem 0 0 2rem;
+  display: flex;
+  flex-direction: column;
 
   .content-footer {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
 
-    .footer-web {
+    .footer-lists {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .footer-lists,
+    .copywritter {
       margin-left: 0.3rem;
       padding-bottom: 1rem;
 
@@ -241,6 +248,16 @@
         color: $main-color;
       }
     }
+  }
+
+  .list {
+    list-style: none;
+    margin-left: -2rem;
+  }
+
+  .copywritter {
+    display: flex;
+    justify-content: center;
   }
 }
 
