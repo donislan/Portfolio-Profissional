@@ -142,6 +142,8 @@
   }
 
   .main-area-icons-tecnologys {
+    display: flex;
+    justify-content: center;
     width: 80%;
     white-space: nowrap;
     margin-left: 9rem;
@@ -156,7 +158,6 @@
     justify-content: center;
     align-items: center;
     transition: transform 1s ease;
-    margin-bottom: 2rem;
   }
 
   .name-tecnology {
