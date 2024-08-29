@@ -132,6 +132,7 @@
 
 .container03 {
   margin-bottom: 3rem;
+  height: 25rem;
 
   .area-texts-tecnologys {
     display: flex;
@@ -144,22 +145,24 @@
   .main-area-icons-tecnologys {
     width: 80%;
     white-space: nowrap;
-    overflow: hidden;
     margin-left: 9rem;
   }
 
-  .area-icons-tecnologys {
-    display: inline-block;
-    animation: anima 20s linear infinite;
+  .image-tecnologys {
+    max-height: 5rem;
+  }
 
-    @keyframes anima {
-      0% {
-        transform: translateX(0);
-      }
-      100% {
-        transform: translateX(-50%);
-      }
-    }
+  .col {
+    transition: transform 1s ease;
+    margin-bottom: 2rem;
+  }
+
+  .col p {
+    display: none;
+  }
+
+  .col:hover {
+    transform: translateY(-20%);
   }
 }
 
@@ -257,7 +260,7 @@
   }
 
   .container01 {
-    height: 70vh;
+    height: 35rem;
     width: auto;
 
     .itens-fixed {

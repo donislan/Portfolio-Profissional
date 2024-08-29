@@ -115,6 +115,7 @@
 
 .container03 {
   margin-bottom: 3rem;
+  height: 25rem;
 }
 .container03 .area-texts-tecnologys {
   display: flex;
@@ -126,20 +127,20 @@
 .container03 .main-area-icons-tecnologys {
   width: 80%;
   white-space: nowrap;
-  overflow: hidden;
   margin-left: 9rem;
 }
-.container03 .area-icons-tecnologys {
-  display: inline-block;
-  animation: anima 20s linear infinite;
+.container03 .image-tecnologys {
+  max-height: 5rem;
 }
-@keyframes anima {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
+.container03 .col {
+  transition: transform 1s ease;
+  margin-bottom: 2rem;
+}
+.container03 .col p {
+  display: none;
+}
+.container03 .col:hover {
+  transform: translateY(-20%);
 }
 
 .container04 {
@@ -220,7 +221,7 @@
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
   }
   .container01 {
-    height: 70vh;
+    height: 35rem;
     width: auto;
   }
   .container01 .itens-fixed {
