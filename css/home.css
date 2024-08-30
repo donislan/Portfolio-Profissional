@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -145,7 +146,7 @@
 
 .container04 {
   background-color: #292f36;
-  padding: 5rem 0 5rem 0;
+  padding: 3rem 0 2rem 0;
   color: white;
   width: 100%;
   display: flex;
@@ -183,6 +184,12 @@
 .container04 .btn-card {
   margin-top: 1rem !important;
 }
+.container04 .text-projects {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  padding: 0 1rem 0 1rem;
+}
 
 .footer {
   background-color: white;
@@ -192,73 +199,38 @@
   flex-direction: column;
   justify-content: center;
 }
-.footer .content-footer {
+.footer .content-footer-lists {
   display: flex;
   flex-direction: column;
   margin-top: 1rem;
 }
-.footer .content-footer .area-contact-card {
+.footer .content-footer-lists .area-contact-card {
   display: flex;
   justify-content: center;
 }
-.footer .content-footer .card-contact {
-  background-color: #292f36;
-  display: flex;
-  width: 20rem;
-  border-radius: 0.2rem;
-}
-.footer .content-footer .card-contact .area-img-card {
-  border-right: 1px solid white;
-}
-.footer .content-footer .card-contact .img-card {
-  width: 10rem;
-  border-radius: 50%;
-  padding: 1rem;
-}
-.footer .content-footer .card-contact .area-number-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.footer .content-footer .card-contact .text-number-card {
-  color: #ffffff;
-  text-align: center;
-}
-.footer .content-footer .card-contact .btn-number-card {
-  background-color: #4e867b;
-  padding: 0.3rem;
-  color: #ffffff;
-  border-radius: 0.5rem;
-}
-.footer .content-footer .card-contact .btn-number-card:hover {
-  background-color: #6eb2a4;
-}
-.footer .content-footer .footer-lists {
+.footer .content-footer-lists .footer-lists {
   margin-top: 2rem;
   display: flex;
   justify-content: space-around;
 }
-.footer .content-footer .footer-lists,
-.footer .content-footer .copywritter {
+.footer .content-footer-lists .footer-lists {
   margin-left: 0.3rem;
   padding-bottom: 1rem;
 }
-.footer .content-footer .footer-lists a,
-.footer .content-footer .copywritter a {
+.footer .content-footer-lists .footer-lists a {
   text-decoration: none;
 }
-.footer .content-footer .footer-lists a:hover,
-.footer .content-footer .copywritter a:hover {
+.footer .content-footer-lists .footer-lists a:hover {
   color: #292f36;
 }
-.footer .content-footer .footer-lists a:visited,
-.footer .content-footer .copywritter a:visited {
+.footer .content-footer-lists .footer-lists a:visited {
   color: #292f36;
 }
-.footer .content-footer .footer-lists a:active,
-.footer .content-footer .copywritter a:active {
+.footer .content-footer-lists .footer-lists a:active {
   color: #292f36;
+}
+.footer .content-footer-lists .title-list-footer {
+  font-weight: bold;
 }
 .footer .list {
   list-style: none;
@@ -267,6 +239,22 @@
 .footer .copywritter {
   display: flex;
   justify-content: center;
+}
+.footer .icon-back-to-top {
+  display: flex;
+  justify-content: center;
+  animation: UpAndDown 2s infinite ease-in-out;
+}
+@keyframes UpAndDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-7px); /* Sobe 20px */
+  }
+  100% {
+    transform: translateY(0); /* Volta à posição original */
+  }
 }
 
 @media (max-width: 1025px) {
@@ -431,11 +419,8 @@
   .footer {
     font-size: 14px;
   }
-  .footer .content-footer {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-left: -2rem;
+  .footer .content-footer-lists {
+    display: none;
   }
 }
 @media (max-width: 426px) {
@@ -519,11 +504,8 @@
   .footer {
     font-size: 14px;
   }
-  .footer .content-footer {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-left: -2rem;
+  .footer .content-footer-lists {
+    display: none;
   }
 }
 @media (max-width: 376px) {
@@ -607,11 +589,8 @@
   .footer {
     font-size: 14px;
   }
-  .footer .content-footer {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-left: -2rem;
+  .footer .content-footer-lists {
+    display: none;
   }
 }
 @media (max-width: 321px) {
@@ -688,11 +667,8 @@
   .footer {
     font-size: 14px;
   }
-  .footer .content-footer {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-left: -2rem;
+  .footer .content-footer-lists {
+    display: none;
   }
 }
 

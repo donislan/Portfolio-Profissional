@@ -136,46 +136,83 @@
 
 .footer {
   background-color: $main-color;
-  color: white;
-  padding-bottom: 0.3rem;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
-  .content-footer {
+  .content-footer-lists {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+
+    .area-contact-card {
+      display: flex;
+      justify-content: center;
+    }
+
+    .footer-lists {
+      margin-top: 2rem;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .footer-lists {
+      margin-left: 0.3rem;
+      padding-bottom: 1rem;
+
+      a {
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: #ffffff;
+      }
+
+      a:visited {
+        color: #ffffff;
+      }
+
+      a:active {
+        color: #ffffff;
+      }
+    }
+
+    .title-list-footer {
+      font-weight: bold;
+    }
+  }
+
+  .list {
+    list-style: none;
+    margin-left: -2rem;
+  }
+
+  .copywritter {
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding-top: 1rem;
+  }
 
-    .div-curriculo {
-      display: flex;
+  .icon-back-to-top {
+    display: flex;
+    justify-content: center;
+    animation: UpAndDown 2s infinite ease-in-out;
+  }
+
+  .icon-back-to-top img {
+    background-color: #ffffff;
+    border-radius: 50%;
+  }
+
+  @keyframes UpAndDown {
+    0% {
+      transform: translateY(0);
     }
-
-    #curriculo {
-      margin-left: 0.3rem;
+    50% {
+      transform: translateY(-7px); /* Sobe 20px */
     }
-
-    .div-curriculo a {
-      text-decoration: none;
-      color: inherit;
-    }
-
-    .icon-social-midea {
-      color: white;
-      transition: color 0.3s ease;
-      cursor: pointer;
-      vertical-align: middle;
-      margin-right: 2rem;
-    }
-
-    .div-curriculo a:hover .icon-social-midea {
-      color: white;
-    }
-
-    .div-curriculo a:visited .icon-social-midea {
-      color: white;
-    }
-
-    .div-curriculo a:active .icon-social-midea {
-      color: white;
+    100% {
+      transform: translateY(0); /* Volta à posição original */
     }
   }
 }
@@ -361,6 +398,11 @@
   .footer {
     text-align: center;
     font-size: 14px;
+    padding-top: 1rem;
+
+    .content-footer-lists {
+      display: none;
+    }
   }
 }
 
@@ -462,6 +504,11 @@
   .footer {
     text-align: center;
     font-size: 14px;
+    padding-top: 1rem;
+
+    .content-footer-lists {
+      display: none;
+    }
   }
 }
 
@@ -562,6 +609,11 @@
   .footer {
     text-align: center;
     font-size: 14px;
+    padding-top: 1rem;
+
+    .content-footer-lists {
+      display: none;
+    }
   }
 }
 
@@ -663,7 +715,12 @@
 
   .footer {
     text-align: center;
-    font-size: 10px;
+    font-size: 14px;
+    padding-top: 1rem;
+
+    .content-footer-lists {
+      display: none;
+    }
   }
 }
 
@@ -764,6 +821,11 @@
 
   .footer {
     text-align: center;
-    font-size: 10px;
+    font-size: 14px;
+    padding-top: 1rem;
+
+    .content-footer-lists {
+      display: none;
+    }
   }
 }

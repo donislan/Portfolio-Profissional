@@ -167,7 +167,7 @@
 
 .container04 {
   background-color: $main-color;
-  padding: 5rem 0 5rem 0;
+  padding: 3rem 0 2rem 0;
   color: white;
   width: 100%;
   display: flex;
@@ -212,6 +212,13 @@
   .btn-card {
     margin-top: 1rem !important;
   }
+
+  .text-projects {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    padding: 0 1rem 0 1rem;
+  }
 }
 
 .footer {
@@ -222,7 +229,7 @@
   flex-direction: column;
   justify-content: center;
 
-  .content-footer {
+  .content-footer-lists {
     display: flex;
     flex-direction: column;
     margin-top: 1rem;
@@ -232,54 +239,13 @@
       justify-content: center;
     }
 
-    .card-contact {
-      background-color: $main-color;
-      display: flex;
-      width: 20rem;
-      border-radius: 0.2rem;
-
-      .area-img-card {
-        border-right: 1px solid #ffff;
-      }
-
-      .img-card {
-        width: 10rem;
-        border-radius: 50%;
-        padding: 1rem;
-      }
-
-      .area-number-card {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
-
-      .text-number-card {
-        color: #ffffff;
-        text-align: center;
-      }
-
-      .btn-number-card {
-        background-color: #4e867b;
-        padding: 0.3rem;
-        color: #ffffff;
-        border-radius: 0.5rem;
-
-        &:hover {
-          background-color: #6eb2a4;
-        }
-      }
-    }
-
     .footer-lists {
       margin-top: 2rem;
       display: flex;
       justify-content: space-around;
     }
 
-    .footer-lists,
-    .copywritter {
+    .footer-lists {
       margin-left: 0.3rem;
       padding-bottom: 1rem;
 
@@ -299,6 +265,10 @@
         color: $main-color;
       }
     }
+
+    .title-list-footer {
+      font-weight: bold;
+    }
   }
 
   .list {
@@ -309,6 +279,24 @@
   .copywritter {
     display: flex;
     justify-content: center;
+  }
+
+  .icon-back-to-top {
+    display: flex;
+    justify-content: center;
+    animation: UpAndDown 2s infinite ease-in-out;
+  }
+
+  @keyframes UpAndDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-7px);
+    }
+    100% {
+      transform: translateY(0);
+    }
   }
 }
 
@@ -528,11 +516,8 @@
   .footer {
     font-size: 14px;
 
-    .content-footer {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      margin-left: -2rem;
+    .content-footer-lists {
+      display: none;
     }
   }
 }
@@ -645,11 +630,8 @@
   .footer {
     font-size: 14px;
 
-    .content-footer {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      margin-left: -2rem;
+    .content-footer-lists {
+      display: none;
     }
   }
 }
@@ -762,11 +744,8 @@
   .footer {
     font-size: 14px;
 
-    .content-footer {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      margin-left: -2rem;
+    .content-footer-lists {
+      display: none;
     }
   }
 }
@@ -815,10 +794,6 @@
           justify-content: center;
         }
       }
-    }
-
-    .itens-animed {
-      display: none;
     }
   }
 
@@ -871,11 +846,8 @@
   .footer {
     font-size: 14px;
 
-    .content-footer {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      margin-left: -2rem;
+    .content-footer-lists {
+      display: none;
     }
   }
 }
