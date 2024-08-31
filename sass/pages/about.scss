@@ -524,7 +524,13 @@
     padding-top: 1rem;
 
     .content-footer-lists {
-      display: none;
+      display: flex;
+
+      .footer-lists {
+        flex-direction: column;
+        text-align: start;
+        padding-left: 1rem;
+      }
     }
   }
 }
@@ -629,7 +635,13 @@
     padding-top: 1rem;
 
     .content-footer-lists {
-      display: none;
+      display: flex;
+
+      .footer-lists {
+        flex-direction: column;
+        text-align: start;
+        padding-left: 1rem;
+      }
     }
   }
 }
@@ -736,7 +748,13 @@
     padding-top: 1rem;
 
     .content-footer-lists {
-      display: none;
+      display: flex;
+
+      .footer-lists {
+        flex-direction: column;
+        text-align: start;
+        padding-left: 1rem;
+      }
     }
   }
 }
@@ -842,7 +860,13 @@
     padding-top: 1rem;
 
     .content-footer-lists {
-      display: none;
+      display: flex;
+
+      .footer-lists {
+        flex-direction: column;
+        text-align: start;
+        padding-left: 1rem;
+      }
     }
   }
 }
