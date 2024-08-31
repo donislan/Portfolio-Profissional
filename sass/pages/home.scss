@@ -239,29 +239,32 @@
       justify-content: center;
     }
 
-    .footer-lists {
-      margin-top: 2rem;
-      display: flex;
-      justify-content: space-around;
+    .list {
+      list-style: none;
+      margin-left: -2rem;
     }
 
     .footer-lists {
       margin-left: 0.3rem;
       padding-bottom: 1rem;
+      margin-top: 2rem;
+      display: flex;
+      justify-content: space-around;
 
-      a {
+      .list a {
         text-decoration: none;
+        color: inherit;
       }
 
-      a:hover {
+      .list a:hover .link-footer {
         color: $main-color;
       }
 
-      a:visited {
+      .list a:visited .link-footer {
         color: $main-color;
       }
 
-      a:active {
+      .list a:active .link-footer {
         color: $main-color;
       }
     }
@@ -269,11 +272,6 @@
     .title-list-footer {
       font-weight: bold;
     }
-  }
-
-  .list {
-    list-style: none;
-    margin-left: -2rem;
   }
 
   .copywritter {

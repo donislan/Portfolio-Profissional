@@ -119,18 +119,22 @@
 
   .card-type-a {
     box-sizing: border-box;
-    border-left: 2rem solid $main-color;
+    border-left: 0.5rem solid $main-color;
     width: 40rem;
     padding-left: 1rem;
-    margin-left: 38rem;
+    margin-left: 39.5rem;
   }
 
   .card-type-b {
     box-sizing: border-box;
-    border-right: 2rem solid $main-color;
+    border-right: 0.5rem solid $main-color;
     width: 40rem;
     text-align: right;
     padding-right: 1rem;
+  }
+
+  .my-function {
+    font-weight: bold;
   }
 }
 
@@ -151,29 +155,32 @@
       justify-content: center;
     }
 
-    .footer-lists {
-      margin-top: 2rem;
-      display: flex;
-      justify-content: space-around;
+    .list {
+      list-style: none;
+      margin-left: -2rem;
     }
 
     .footer-lists {
       margin-left: 0.3rem;
       padding-bottom: 1rem;
+      margin-top: 2rem;
+      display: flex;
+      justify-content: space-around;
 
-      a {
+      .list a {
         text-decoration: none;
+        color: inherit;
       }
 
-      a:hover {
+      .list a:hover .link-footer {
         color: #ffffff;
       }
 
-      a:visited {
+      .list a:visited .link-footer {
         color: #ffffff;
       }
 
-      a:active {
+      .list a:active .link-footer {
         color: #ffffff;
       }
     }
@@ -181,11 +188,6 @@
     .title-list-footer {
       font-weight: bold;
     }
-  }
-
-  .list {
-    list-style: none;
-    margin-left: -2rem;
   }
 
   .copywritter {
