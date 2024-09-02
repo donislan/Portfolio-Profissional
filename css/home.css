@@ -114,33 +114,56 @@
 }
 
 .container03 {
-  margin-bottom: 3rem;
-}
-.container03 .area-texts-tecnologys {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding-top: 4rem;
+  margin-top: 2rem;
 }
 .container03 .main-area-icons-tecnologys {
   display: flex;
   justify-content: center;
-  width: 80%;
+  align-items: center;
+}
+.container03 .area-icons-tecnologys {
+  display: flex;
+  flex-direction: column;
+  width: 75vh;
   white-space: nowrap;
-  margin-left: 9rem;
+  overflow: hidden;
+  mask-image: linear-gradient(to right, transparent, black 20%, black 80%, transparent);
+}
+.container03 .slide-tecnologys-01 {
+  display: inline-block;
+  animation: anima 7s linear infinite;
+}
+@keyframes anima {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.container03 .area-icons-tecnologys-02 {
+  width: 75vh;
+  white-space: nowrap;
+  overflow: hidden;
+  mask-image: linear-gradient(to right, transparent, black 20%, black 80%, transparent);
+}
+.container03 .slide-tecnologys-02 {
+  display: inline-block;
+  animation: anima-reverse 7s linear infinite;
+}
+@keyframes anima-reverse {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.container03 .icon-tec {
+  height: 7rem;
 }
 .container03 .image-tecnologys {
-  max-height: 5rem;
-}
-.container03 .col {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: transform 1s ease;
-}
-.container03 .name-tecnology {
-  display: none;
+  height: 30rem;
 }
 
 .container04 {
@@ -426,6 +449,15 @@
   }
 }
 @media (max-width: 686px) {
+  .container03 .main-area-icons-tecnologys {
+    width: 100%;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .container03 .image-tecnologys {
+    height: 20rem;
+  }
   .footer {
     text-align: center;
     font-size: 14px;
@@ -509,6 +541,11 @@
   .container03 .main-area-icons-tecnologys {
     width: 100%;
     margin-left: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .container03 .image-tecnologys {
+    height: 20rem;
   }
   .container04 {
     padding: 3rem 0;
@@ -600,6 +637,11 @@
   .container03 .main-area-icons-tecnologys {
     width: 100%;
     margin-left: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .container03 .image-tecnologys {
+    height: 20rem;
   }
   .container04 {
     padding: 3rem 0;
@@ -621,7 +663,7 @@
     padding-left: 1rem;
   }
 }
-@media (max-width: 321px) {
+@media (max-width: 320px) {
   .header {
     font-size: 12px !important;
   }
@@ -681,6 +723,11 @@
   .container03 .main-area-icons-tecnologys {
     width: 100%;
     margin-left: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .container03 .image-tecnologys {
+    height: 20rem;
   }
   .container04 {
     padding: 3rem 0;
