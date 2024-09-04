@@ -35,7 +35,7 @@
     margin-top: -3rem;
     border-radius: 50%;
     height: 29rem;
-    border: 4px solid white;
+    border: 4px solid $main-color;
   }
 
   #main-function {
@@ -77,6 +77,7 @@
   grid-template-columns: 2fr 1fr;
   height: auto;
   max-width: 94%;
+  padding-left: 1rem;
 
   .about {
     padding: 2rem;
@@ -85,6 +86,7 @@
     flex-direction: column;
     background-color: $main-color;
     color: white;
+    border-radius: 0 2rem;
 
     .about-title {
       font-size: 2rem;
@@ -141,8 +143,7 @@
   .area-icons-tecnologys {
     display: flex;
     flex-direction: column;
-    width: 75vh;
-
+    width: 60vh;
     white-space: nowrap;
     overflow: hidden;
     mask-image: linear-gradient(
@@ -169,7 +170,7 @@
   }
 
   .area-icons-tecnologys-02 {
-    width: 75vh;
+    width: 60vh;
     white-space: nowrap;
     overflow: hidden;
     mask-image: linear-gradient(
@@ -206,13 +207,15 @@
 
 .container04 {
   background-color: $main-color;
-  padding: 3rem 0 2rem 0;
+  padding: 3rem;
   color: white;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  border-top-left-radius: 4rem;
+  border-top-right-radius: 4rem;
 
   .title-projects {
     padding: 0 0 2rem 2rem;
@@ -825,6 +828,7 @@
 
   .container04 {
     padding: 3rem 0;
+    border-top-right-radius: 0;
 
     .area-cards {
       flex-direction: column;
@@ -940,6 +944,7 @@
 
   .container04 {
     padding: 3rem 0;
+    border-top-right-radius: 0;
 
     .area-cards {
       flex-direction: column;

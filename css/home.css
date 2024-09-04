@@ -35,7 +35,7 @@
   margin-top: -3rem;
   border-radius: 50%;
   height: 29rem;
-  border: 4px solid white;
+  border: 4px solid #292f36;
 }
 .container01 #main-function {
   font-size: 3rem;
@@ -69,6 +69,7 @@
   grid-template-columns: 2fr 1fr;
   height: auto;
   max-width: 94%;
+  padding-left: 1rem;
 }
 .container02 .about {
   padding: 2rem;
@@ -77,6 +78,7 @@
   flex-direction: column;
   background-color: #292f36;
   color: white;
+  border-radius: 0 2rem;
 }
 .container02 .about .about-title {
   font-size: 2rem;
@@ -123,7 +125,7 @@
 .container03 .area-icons-tecnologys {
   display: flex;
   flex-direction: column;
-  width: 75vh;
+  width: 60vh;
   white-space: nowrap;
   overflow: hidden;
   mask-image: linear-gradient(to right, transparent, black 20%, black 80%, transparent);
@@ -141,7 +143,7 @@
   }
 }
 .container03 .area-icons-tecnologys-02 {
-  width: 75vh;
+  width: 60vh;
   white-space: nowrap;
   overflow: hidden;
   mask-image: linear-gradient(to right, transparent, black 20%, black 80%, transparent);
@@ -167,13 +169,15 @@
 
 .container04 {
   background-color: #292f36;
-  padding: 3rem 0 2rem 0;
+  padding: 3rem;
   color: white;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  border-top-left-radius: 4rem;
+  border-top-right-radius: 4rem;
 }
 .container04 .title-projects {
   padding: 0 0 2rem 2rem;
@@ -644,6 +648,7 @@
   }
   .container04 {
     padding: 3rem 0;
+    border-top-right-radius: 0;
   }
   .container04 .area-cards {
     flex-direction: column;
@@ -730,6 +735,7 @@
   }
   .container04 {
     padding: 3rem 0;
+    border-top-right-radius: 0;
   }
   .container04 .area-cards {
     flex-direction: column;
