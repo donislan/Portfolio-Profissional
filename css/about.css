@@ -240,9 +240,6 @@
     justify-content: center;
     margin-left: -3rem;
   }
-  .container01 .itens-animed {
-    display: none;
-  }
   .container02 {
     text-align: center;
     font-size: 15px;
@@ -271,6 +268,14 @@
   .footer {
     text-align: center;
     font-size: 14px;
+    padding-top: 1rem;
+  }
+  .footer .content-footer-lists {
+    display: flex;
+  }
+  .footer .content-footer-lists .footer-lists {
+    text-align: start;
+    padding-left: 1rem;
   }
 }
 @media (max-width: 1025px) {
@@ -341,6 +346,14 @@
   .footer {
     text-align: center;
     font-size: 14px;
+    padding-top: 1rem;
+  }
+  .footer .content-footer-lists {
+    display: flex;
+  }
+  .footer .content-footer-lists .footer-lists {
+    text-align: start;
+    padding-left: 1rem;
   }
 }
 @media (max-width: 768px) {
@@ -390,6 +403,18 @@
     box-sizing: border-box;
     width: 19rem;
     text-align: right;
+  }
+  .footer {
+    text-align: center;
+    font-size: 14px;
+    padding-top: 1rem;
+  }
+  .footer .content-footer-lists {
+    display: flex;
+  }
+  .footer .content-footer-lists .footer-lists {
+    text-align: start;
+    padding-left: 1rem;
   }
 }
 @media (max-width: 595px) {

@@ -278,10 +278,6 @@
         }
       }
     }
-
-    .itens-animed {
-      display: none;
-    }
   }
 
   .container02 {
@@ -319,6 +315,16 @@
   .footer {
     text-align: center;
     font-size: 14px;
+    padding-top: 1rem;
+
+    .content-footer-lists {
+      display: flex;
+
+      .footer-lists {
+        text-align: start;
+        padding-left: 1rem;
+      }
+    }
   }
 }
 
@@ -407,6 +413,16 @@
   .footer {
     text-align: center;
     font-size: 14px;
+    padding-top: 1rem;
+
+    .content-footer-lists {
+      display: flex;
+
+      .footer-lists {
+        text-align: start;
+        padding-left: 1rem;
+      }
+    }
   }
 }
 
@@ -444,6 +460,7 @@
       height: 20rem;
     }
   }
+
   .container03 {
     .experience-title {
       display: flex;
@@ -468,6 +485,21 @@
       box-sizing: border-box;
       width: 19rem;
       text-align: right;
+    }
+  }
+
+  .footer {
+    text-align: center;
+    font-size: 14px;
+    padding-top: 1rem;
+
+    .content-footer-lists {
+      display: flex;
+
+      .footer-lists {
+        text-align: start;
+        padding-left: 1rem;
+      }
     }
   }
 }
