@@ -93,6 +93,9 @@
 .container02 .elemnts-about-low {
   display: flex;
 }
+.container02 .photo-about {
+  height: 30rem;
+}
 
 .container03 {
   display: flex;
