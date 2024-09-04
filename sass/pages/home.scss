@@ -36,6 +36,19 @@
     border-radius: 50%;
     height: 29rem;
     border: 4px solid white;
+    animation: UpAndDown 3s ease-in-out infinite;
+  }
+
+  @keyframes UpAndDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-7px);
+    }
+    100% {
+      transform: translateY(0);
+    }
   }
 
   #main-function {
@@ -546,6 +559,7 @@
   .container04 {
     text-align: center;
     padding: 3rem 0;
+    border-top-right-radius: 0;
 
     .area-cards {
       flex-direction: column;
@@ -579,6 +593,10 @@
     .image-tecnologys {
       height: 20rem;
     }
+  }
+
+  .container04 {
+    border-top-right-radius: 0;
   }
 
   .footer {
@@ -701,6 +719,7 @@
 
   .container04 {
     padding: 3rem 0;
+    border-top-right-radius: 0;
 
     .area-cards {
       flex-direction: column;

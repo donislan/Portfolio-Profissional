@@ -37,6 +37,19 @@
     border-radius: 50%;
     height: 29rem;
     border: 4px solid white;
+    animation: UpAndDown 3s ease-in-out infinite;
+  }
+
+  @keyframes UpAndDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-7px);
+    }
+    100% {
+      transform: translateY(0);
+    }
   }
 
   #main-function {
@@ -213,10 +226,10 @@
       transform: translateY(0);
     }
     50% {
-      transform: translateY(-7px); /* Sobe 20px */
+      transform: translateY(-7px);
     }
     100% {
-      transform: translateY(0); /* Volta à posição original */
+      transform: translateY(0);
     }
   }
 }
@@ -421,6 +434,8 @@
   }
 
   .container02 {
+    margin-top: 2rem;
+
     .elemnts-about-low {
       flex-direction: column;
     }

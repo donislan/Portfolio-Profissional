@@ -36,6 +36,18 @@
   border-radius: 50%;
   height: 29rem;
   border: 4px solid white;
+  animation: UpAndDown 3s ease-in-out infinite;
+}
+@keyframes UpAndDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-7px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 .container01 #main-function {
   font-size: 3rem;
@@ -435,6 +447,7 @@
   .container04 {
     text-align: center;
     padding: 3rem 0;
+    border-top-right-radius: 0;
   }
   .container04 .area-cards {
     flex-direction: column;
@@ -460,6 +473,9 @@
   }
   .container03 .image-tecnologys {
     height: 20rem;
+  }
+  .container04 {
+    border-top-right-radius: 0;
   }
   .footer {
     text-align: center;
@@ -552,6 +568,7 @@
   }
   .container04 {
     padding: 3rem 0;
+    border-top-right-radius: 0;
   }
   .container04 .area-cards {
     flex-direction: column;
