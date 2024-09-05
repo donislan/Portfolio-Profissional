@@ -194,6 +194,8 @@
   justify-content: center;
   align-items: center;
   border-top-left-radius: 4rem;
+  border-bottom-left-radius: 4rem;
+  margin-left: 2rem;
 
   .area-cards {
     padding: 2rem 0;
@@ -392,5 +394,11 @@
     .subtitle-container-03 {
       font-size: 1rem;
     }
+  }
+}
+
+@media (max-width: 320px) {
+  .container-04 {
+    margin-left: 0.5rem;
   }
 }
