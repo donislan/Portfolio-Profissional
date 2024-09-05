@@ -378,36 +378,12 @@
     #title-header {
       font-size: 1rem !important;
     }
-
-    .navbar-toggler-icon {
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-    }
-
-    .nav-link {
-      text-align: center !important;
-    }
   }
 
   .container-01 {
     .content-container-01 {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-
       .area-avatar img {
         height: 15rem;
-      }
-
-      #title-container-01 {
-        font-size: 1.2rem;
-      }
-
-      .subtitle-container-01 {
-        font-size: 0.8rem;
-      }
-
-      .icons-container-01 {
-        gap: 0.1rem;
       }
     }
   }
@@ -415,82 +391,6 @@
   .container-03 {
     .subtitle-container-03 {
       font-size: 1rem;
-    }
-  }
-}
-
-@media (max-width: 375px) {
-  .header {
-    #title-header {
-      font-size: 1rem !important;
-    }
-
-    .navbar-toggler-icon {
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-    }
-
-    .nav-link {
-      text-align: center !important;
-    }
-  }
-
-  .container-01 {
-    .content-container-01 {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-
-      .area-avatar img {
-        height: 15rem;
-      }
-
-      #title-container-01 {
-        font-size: 1.2rem;
-      }
-
-      .subtitle-container-01 {
-        font-size: 0.8rem;
-      }
-
-      .icons-container-01 {
-        gap: 0.1rem;
-      }
-    }
-  }
-}
-
-@media (max-width: 320px) {
-  .header {
-    #title-header {
-      font-size: 1rem !important;
-    }
-
-    .navbar-toggler-icon {
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-    }
-
-    .nav-link {
-      text-align: center !important;
-    }
-  }
-
-  .container-01 {
-    .content-container-01 {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-
-      .area-avatar img {
-        height: 15rem;
-      }
-
-      .subtitle-container-01 {
-        font-size: 0.8rem;
-      }
-
-      .icons-container-01 {
-        gap: 0.1rem;
-      }
     }
   }
 }
