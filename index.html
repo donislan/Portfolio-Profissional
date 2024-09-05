@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio: Adonislan Silva</title>
+    <title>Portfólio: Adonislan</title>
     <!-- Bootstrap Css -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -21,7 +21,7 @@
     <!-- Lib text Css -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- Link do Css -->
-    <link rel="stylesheet" href="./css/home.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <!-- Link da fonte do Google-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -34,9 +34,7 @@
     <header class="header">
       <nav class="navbar navbar-expand-lg bg-body-tertiary header">
         <div class="container-fluid">
-          <a class="navbar-brand" id="title-header" href="#"
-            >Adonislan Alves da Silva</a
-          >
+          <a class="navbar-brand" id="title-header">Adonislan Alves da Silva</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -49,93 +47,110 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav" id="btn-area-header">
-              <a class="nav-link btn-header" href="#about-me">Sobre</a>
+            <div class="navbar-nav">
+              <a class="nav-link btn-header" href="#container-02">Sobre</a>
               <a class="nav-link btn-header" href="./html/about.html"
                 >Experiências</a
               >
-              <a class="nav-link btn-header" href="#my-tecnologys"
+              <a class="nav-link btn-header" href="#container-03"
                 >Tecnologias</a
               >
-              <a class="nav-link btn-header" href="#my-projects"> Projetos </a>
-              <a class="nav-link btn-header" href="./src/CURRÍCULO.pdf" download
+              <a class="nav-link btn-header" href="#container-04"> Projetos </a>
+              <a
+                class="nav-link btn-header"
+                href="./src/CURRÍCULO.pdf"
+                download=""
                 >Currículo</a
               >
             </div>
           </div>
         </div>
       </nav>
+      <!-- Bootstrap Script-->
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"
+      ></script>
+      <!-- Lib text Script -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+      <!-- Script dos icones de rede social -->
+      <script
+        type="module"
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+      ></script>
     </header>
 
-    <main class="main">
-      <article class="container01">
-        <figure class="itens-fixed">
-          <div class="photo-area">
-            <img
-              src="./images/photoshot/ME-01.png"
-              alt="image-do-perfil"
-              id="photo-profile"
-            />
+    <section class="container-01" id="container-01">
+      <section class="content-container-01">
+        <div class="area-avatar">
+          <img
+            src="./images/photoshot/ME-01.png"
+            alt="image-do-perfil"
+            id="photo-profile"
+          />
+        </div>
+        <div class="content-texts">
+          <h4 class="subtitle-container-01">
+            Bem-vindo! Este é meu portfólio Profissional
+          </h4>
+          <h1 id="title-container-01">DESENVOLVEDOR FRONT-END</h1>
+          <div class="icons-container-01">
+            <a
+              href="https://api.whatsapp.com/send?phone=+5582999203503&text=Ol%C3%A1%2C+tudo+bem%3F"
+              target="_blank"
+            >
+              <ion-icon
+                class="icon-social-midea"
+                name="logo-whatsapp"
+              ></ion-icon>
+            </a>
+            <a href="https://www.instagram.com/donislan/" target="_blank">
+              <ion-icon
+                class="icon-social-midea"
+                name="logo-instagram"
+              ></ion-icon>
+            </a>
+            <a
+              href="https://br.linkedin.com/in/adonislan-silva-684b7331a"
+              target="_blank"
+            >
+              <ion-icon
+                class="icon-social-midea"
+                name="logo-linkedin"
+              ></ion-icon
+            ></a>
+            <a href="https://github.com/donislan" target="_blank">
+              <ion-icon class="icon-social-midea" name="logo-github"></ion-icon
+            ></a>
           </div>
-          <div class="text-icons">
-            <p id="main-function">DESENVOLVEDOR FRONT-END</p>
-            <div class="area-icons-social-midea">
-              <a
-                href="https://api.whatsapp.com/send?phone=+5582999203503&text=Ol%C3%A1%2C+tudo+bem%3F"
-                target="_blank"
-              >
-                <ion-icon
-                  class="icon-social-midea"
-                  name="logo-whatsapp"
-                ></ion-icon>
-              </a>
-              <a href="https://www.instagram.com/donislan/" target="_blank">
-                <ion-icon
-                  class="icon-social-midea"
-                  name="logo-instagram"
-                ></ion-icon>
-              </a>
-              <a
-                href="https://br.linkedin.com/in/adonislan-silva-684b7331a"
-                target="_blank"
-              >
-                <ion-icon
-                  class="icon-social-midea"
-                  name="logo-linkedin"
-                ></ion-icon
-              ></a>
-              <a href="https://github.com/donislan" target="_blank">
-                <ion-icon
-                  class="icon-social-midea"
-                  name="logo-github"
-                ></ion-icon
-              ></a>
-            </div>
-          </div>
-        </figure>
-      </article>
-      <article
-        class="container02"
+        </div>
+      </section>
+    </section>
+
+    <section class="container-02" id="container-02">
+      <section
+        class="content-container-02"
         data-aos="fade-righ"
         data-aos-duration="1000"
       >
-        <figure class="about" id="about-me">
-          <h2 class="about-title" data-aos="fade-righ" data-aos-duration="1500">
-            Hello, World!
-          </h2>
-          <p class="about-text" data-aos="fade-righ" data-aos-duration="2000">
+        <div class="about">
+          <h2 class="title-about">Hello World!</h2>
+          <p class="text-about">
             Sou Adonislan, mais conhecido como Adonis. Tenho 29 anos, trabalho
             com regulação de sinistros e estou cursando Análise e
             Desenvolvimento de Sistemas na Estácio de Sá.
           </p>
-
-          <p class="about-text" data-aos="fade-righ" data-aos-duration="2500">
+          <p class="text-about">
             Minha trajetória profissional abrange funções no setor público e
             privado. Essas experiências diversificadas desenvolveram habilidades
             versáteis, enriquecendo meu perfil profissional com uma singular
             capacidade de adaptação.
           </p>
-          <p class="about-text" data-aos="fade-righ" data-aos-duration="3000">
+          <p class="text-about">
             Recentemente, tenho focado nos estudos em desenvolvimento de
             sistemas. Além dos conhecimentos adquiridos na graduação, estou
             realizando cursos profissionalizantes em desenvolvimento Front-End.
@@ -143,94 +158,56 @@
             Sass, Bootstrap, React e NodeJS, além de utilizar ferramentas de
             versionamento de código como Git e GitHub.
           </p>
-        </figure>
-
-        <figure class="history">
-          <div class="timeline">
-            <div
-              class="timeline-card"
-              data-aos="fade-up"
-              data-aos-duration="1500"
-            >
-              <h2
-                class="text-timeline"
-                data-aos="fade-left"
-                data-aos-duration="1500"
-              >
-                Conheça o profissional antes de se tornar um desenvolvedor
-                front-end...
-              </h2>
-              <p
-                class="text-history"
-                data-aos="fade-left"
-                data-aos-duration="1500"
-              >
+        </div>
+      </section>
+      <section class="cards-container-02">
+        <div class="cards-about">
+          <div class="content-cards">
+            <div class="card-left" data-aos="fade-up" data-aos-duration="1500">
+              <h2 class="title-card">10 anos ativo no mercado de trabalho</h2>
+              <p class="text-card">
                 Preparei uma linha do tempo contando toda a minha jornada
                 profissional, meus desafios e conquistas...
               </p>
               <a
-                href="./html/about.html"
                 class="btn btn-light btn-timeline"
                 role="button"
-                class="text-history"
-                data-aos="fade-left"
-                data-aos-duration="1500"
+                class="text-timeline"
               >
                 Aqui!
               </a>
             </div>
 
-            <div
-              class="timeline-card-right"
-              data-aos="fade-up"
-              data-aos-duration="1500"
-            >
-              <h2
-                class="text-timeline"
-                data-aos="fade-right"
-                data-aos-duration="1500"
-              >
-                Acesse meus projetos...
-              </h2>
-              <p
-                class="text-history"
-                data-aos="fade-right"
-                data-aos-duration="1500"
-              >
+            <div class="card-right" data-aos="fade-up" data-aos-duration="1500">
+              <h2 class="title-card">Conheça meus projetos</h2>
+              <p class="text-card">
                 Conheça meus projetos integrando tecnologias do front-end em
                 minha jornada como Desenvolvedor Front-end...
               </p>
               <a
-                href="#my-projects"
                 class="btn btn-light btn-timeline"
                 role="button"
                 class="text-timeline"
-                data-aos="fade-right"
-                data-aos-duration="1500"
+                href="#container-04"
               >
                 Aqui!
               </a>
             </div>
           </div>
-        </figure>
-      </article>
+        </div>
+      </section>
+    </section>
 
-      <article class="container03">
-        <figure
-          class="area-texts-tecnologys"
-          id="my-tecnologys"
-          data-aos="fade-down"
-          data-aos-duration="1500"
-        >
-          <h1 class="title-tecnologys text-center">TECNOLOGIAS</h1>
-          <p class="text-tecnologys text-center">
-            Essas tecnologias me permitem transformar ideias em realidade
-            digital, criando experiências web incríveis e envolventes!
-          </p>
-        </figure>
-        <section class="main-area-icons-tecnologys">
-          <div class="area-icons-tecnologys">
-            <div class="main-area-slides">
+    <section class="container-03" id="container-03">
+      <section class="content-container-02">
+        <h1 class="title-container-03 text-center">Hard's Skills</h1>
+        <h5 class="subtitle-container-03 text-center">
+          Essas tecnologias me permitem transformar ideias em realidade digital,
+          criando experiências web incríveis e envolventes!
+        </h5>
+        <section class="area-icons-tecnologys">
+          <div class="icons-tecnologys">
+            <div class="slides">
               <div class="slide-tecnologys-01">
                 <img
                   src="./images/Icons/HTML.png"
@@ -347,216 +324,218 @@
               src="./images/photoshot/ME-02.png"
               alt=""
               class="image-tecnologys"
-              data-aos="fade-left"
-              data-aos-duration="2000"
+              data-aos="fade-right"
+              data-aos-duration="1500"
             />
           </div>
         </section>
-      </article>
+      </section>
+    </section>
 
-      <article class="container04" data-aos="fade-up" data-aos-duration="1000">
-        <figure class="projects" id="my-projects">
-          <h1 class="title-projects">PROJETOS</h1>
-
-          <section class="area-cards">
-            <div
-              class="card"
-              style="width: 18rem"
-              data-aos="flip-left"
-              data-aos-duration="1500"
-            >
-              <img
-                src="./images/capaProjetos/XMAN.png"
-                class="card-img-top"
-                alt="Capa do Projeto Xman"
-              />
-              <div class="card-body">
-                <h5 class="card-title text-center">JOGO DA VELHA X-MAN</h5>
-                <p class="card-text text-center">
-                  Primeiro projeto indepedente. Construído quando apenas
-                  conhecia HTML5, CSS3 e JS.
-                </p>
-              </div>
-
-              <div class="card-body text-center">
-                <a
-                  href="https://donislan.github.io/Jogo-da-Velha-X-man/"
-                  class="card-link"
-                  target="_blank"
-                  >Deploy</a
-                >
-                <a
-                  href="https://github.com/donislan/Jogo-da-Velha-X-man"
-                  class="card-link"
-                  target="_blank"
-                  >Repositório</a
-                >
-              </div>
+    <section class="container-04" id="container-04">
+      <section class="content-container-04">
+        <div class="title-container-04">
+          <h1 class="text-center">PROJETOS</h1>
+        </div>
+        <section class="area-cards">
+          <div
+            class="card"
+            style="width: 18rem"
+            data-aos="fade-flip"
+            data-aos-duration="1500"
+          >
+            <img
+              src="./images/capaProjetos/XMAN.png"
+              class="card-img-top"
+              alt="Capa do Projeto Xman"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">JOGO DA VELHA X-MAN</h5>
+              <p class="card-text text-center">
+                Primeiro projeto indepedente. Construído quando apenas conhecia
+                HTML5, CSS3 e JS.
+              </p>
             </div>
 
-            <div
-              class="card"
-              style="width: 18rem"
-              data-aos="flip-left"
-              data-aos-duration="1500"
-            >
-              <img
-                src="./images/capaProjetos/LIVROFLIX.png"
-                class="card-img-top"
-                alt="Capa do Projeto LivroFlix"
-              />
-              <div class="card-body">
-                <h5 class="card-title text-center">LIVROFLIX</h5>
-                <p class="card-text text-center">
-                  Projeto desenvolvido para graduação em ADS. Apenas permitido
-                  uso de HTML, CSS e JS puro.
-                </p>
-              </div>
+            <div class="card-body text-center">
+              <a
+                href="https://donislan.github.io/Jogo-da-Velha-X-man/"
+                class="card-link"
+                target="_blank"
+                >Deploy</a
+              >
+              <a
+                href="https://github.com/donislan/Jogo-da-Velha-X-man"
+                class="card-link"
+                target="_blank"
+                >Repositório</a
+              >
+            </div>
+          </div>
 
-              <div class="card-body text-center">
-                <a
-                  href="https://livroflix.vercel.app/"
-                  class="card-link"
-                  target="_blank"
-                  >Deploy</a
-                >
-                <a
-                  href="https://github.com/donislan/Livroflix"
-                  class="card-link"
-                  target="_blank"
-                  >Repositório</a
-                >
-              </div>
+          <div
+            class="card"
+            style="width: 18rem"
+            data-aos="fade-flip"
+            data-aos-duration="1500"
+          >
+            <img
+              src="./images/capaProjetos/LIVROFLIX.png"
+              class="card-img-top"
+              alt="Capa do Projeto LivroFlix"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">LIVROFLIX</h5>
+              <p class="card-text text-center">
+                Projeto desenvolvido para graduação em ADS. Apenas permitido uso
+                de HTML, CSS e JS puro.
+              </p>
             </div>
 
-            <div
-              class="card"
-              style="width: 18rem"
-              data-aos="flip-left"
-              data-aos-duration="1500"
-            >
-              <img
-                src="./images/capaProjetos/SPACEX.png"
-                class="card-img-top"
-                alt="Capa do Projeto SpaceX"
-              />
-              <div class="card-body">
-                <h5 class="card-title text-center">PÁGINA SPACEX</h5>
-                <p class="card-text text-center">
-                  Projeto direcionado para treinamento de uso SASS e BootStrap
-                </p>
-              </div>
-              <div class="card-body text-center">
-                <a
-                  href="https://pagina-space-x.vercel.app/"
-                  class="card-link"
-                  target="_blank"
-                  >Deploy</a
-                >
-                <a
-                  href="https://github.com/donislan/Pagina-SpaceX"
-                  class="card-link"
-                  target="_blank"
-                  >Repositório</a
-                >
-              </div>
+            <div class="card-body text-center">
+              <a
+                href="https://livroflix.vercel.app/"
+                class="card-link"
+                target="_blank"
+                >Deploy</a
+              >
+              <a
+                href="https://github.com/donislan/Livroflix"
+                class="card-link"
+                target="_blank"
+                >Repositório</a
+              >
             </div>
+          </div>
 
-            <div
-              class="card"
-              style="width: 18rem"
-              data-aos="flip-left"
-              data-aos-duration="1500"
-            >
-              <img
-                src="./images/capaProjetos/CARDPERFIL.png"
-                class="card-img-top"
-                alt="Capa do Projeto SpaceX"
-              />
-              <div class="card-body">
-                <h5 class="card-title text-center">
-                  CARTÃO DIGITAL (LINKTREE)
-                </h5>
-                <p class="card-text text-center">
-                  Projeto desenvolvido para desenvolver competências react,
-                  como: components, styled components e props
-                </p>
-              </div>
-              <div class="card-body text-center">
-                <a
-                  href="https://linktree-profile-smoky.vercel.app/"
-                  class="card-link"
-                  target="_blank"
-                  >Deploy</a
-                >
-                <a
-                  href="https://github.com/donislan/Card-de-Perfil"
-                  class="card-link"
-                  target="_blank"
-                  >Repositório</a
-                >
-              </div>
+          <div
+            class="card"
+            style="width: 18rem"
+            data-aos="fade-flip"
+            data-aos-duration="1500"
+          >
+            <img
+              src="./images/capaProjetos/SPACEX.png"
+              class="card-img-top"
+              alt="Capa do Projeto SpaceX"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">PÁGINA SPACEX</h5>
+              <p class="card-text text-center">
+                Projeto direcionado para treinamento de uso SASS e BootStrap
+              </p>
             </div>
+            <div class="card-body text-center">
+              <a
+                href="https://pagina-space-x.vercel.app/"
+                class="card-link"
+                target="_blank"
+                >Deploy</a
+              >
+              <a
+                href="https://github.com/donislan/Pagina-SpaceX"
+                class="card-link"
+                target="_blank"
+                >Repositório</a
+              >
+            </div>
+          </div>
 
-            <div
-              class="card"
-              style="width: 18rem"
-              data-aos="flip-left"
-              data-aos-duration="1500"
-            >
-              <img
-                src="./images/capaProjetos/PRODUCTIVITYHUB.png"
-                class="card-img-top"
-                alt="Capa do Projeto SpaceX"
-              />
-              <div class="card-body">
-                <h5 class="card-title text-center">PRODUCTIVITY HUB</h5>
-                <p class="card-text text-center">
-                  Projeto desenvolvido para trabalhar projetos mais simples,
-                  dentro de uma aplicação mais robusta e com sentido empregado
-                </p>
-              </div>
-              <div class="card-body text-center">
-                <a
-                  href="https://productivity-hub-six.vercel.app/"
-                  class="card-link"
-                  target="_blank"
-                  >Deploy</a
-                >
-                <a
-                  href="https://github.com/donislan/Productivity-Hub"
-                  class="card-link"
-                  target="_blank"
-                  >Repositório</a
-                >
-              </div>
+          <div
+            class="card"
+            style="width: 18rem"
+            data-aos="fade-flip"
+            data-aos-duration="1500"
+          >
+            <img
+              src="./images/capaProjetos/CARDPERFIL.png"
+              class="card-img-top"
+              alt="Capa do Projeto SpaceX"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">CARTÃO DIGITAL (LINKTREE)</h5>
+              <p class="card-text text-center">
+                Projeto desenvolvido para desenvolver competências react, como:
+                components, styled components e props
+              </p>
             </div>
-          </section>
-        </figure>
-        <p class="text-projects" data-aos="fade-right" data-aos-duration="1500">
-          Visite meus projetos e teste minhas aplicações. Se não for o
-          suficiente, pegue um café, estou sempre trabalhando em novos projetos.
-        </p>
-      </article>
-    </main>
+            <div class="card-body text-center">
+              <a
+                href="https://linktree-profile-smoky.vercel.app/"
+                class="card-link"
+                target="_blank"
+                >Deploy</a
+              >
+              <a
+                href="https://github.com/donislan/Card-de-Perfil"
+                class="card-link"
+                target="_blank"
+                >Repositório</a
+              >
+            </div>
+          </div>
+
+          <div
+            class="card"
+            style="width: 18rem"
+            data-aos="fade-flip"
+            data-aos-duration="1500"
+          >
+            <img
+              src="./images/capaProjetos/PRODUCTIVITYHUB.png"
+              class="card-img-top"
+              alt="Capa do Projeto SpaceX"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">PRODUCTIVITY HUB</h5>
+              <p class="card-text text-center">
+                Projeto desenvolvido para trabalhar projetos mais simples,
+                dentro de uma aplicação mais robusta e com sentido empregado
+              </p>
+            </div>
+            <div class="card-body text-center">
+              <a
+                href="https://productivity-hub-six.vercel.app/"
+                class="card-link"
+                target="_blank"
+                >Deploy</a
+              >
+              <a
+                href="https://github.com/donislan/Productivity-Hub"
+                class="card-link"
+                target="_blank"
+                >Repositório</a
+              >
+            </div>
+          </div>
+        </section>
+        <div class="subtext-container-04">
+          <p class="text-center">
+            Visite meus projetos e teste minhas aplicações. Se não for o
+            suficiente, pegue um café, estou sempre trabalhando em novos
+            projetos.
+          </p>
+        </div>
+      </section>
+    </section>
 
     <footer class="footer">
       <figure class="content-footer-lists">
         <div class="footer-lists">
-          <div data-aos="fade-righ" data-aos-duration="1500">
+          <div>
             <p class="title-list-footer">Página</p>
             <ul class="list">
-              <li><a href="#about-me" class="link-footer">Sobre</a></li>
+              <li><a href="#container-02" class="link-footer">Sobre</a></li>
               <li>
                 <a href="./html/about.html" class="link-footer">Experiências</a>
               </li>
               <li>
-                <a href="#my-tecnologys" class="link-footer">Tecnologias</a>
+                <a href="#container-03" class="link-footer">Tecnologias</a>
               </li>
-              <li><a href="#my-projects" class="link-footer">Projetos</a></li>
+              <li><a href="#container-04" class="link-footer">Projetos</a></li>
             </ul>
           </div>
-          <div data-aos="fade-righ" data-aos-duration="1500">
+          <div>
             <p class="title-list-footer">Redes</p>
             <ul class="list">
               <li>
@@ -596,7 +575,7 @@
               </li>
             </ul>
           </div>
-          <div data-aos="fade-righ" data-aos-duration="1500">
+          <div>
             <p class="title-list-footer">Certificados</p>
             <ul class="list">
               <li>
@@ -697,7 +676,7 @@
               </li>
             </ul>
           </div>
-          <div data-aos="fade-righ" data-aos-duration="1500">
+          <div>
             <p class="title-list-footer">Projetos</p>
             <ul class="list">
               <li>
@@ -742,7 +721,7 @@
               </li>
             </ul>
           </div>
-          <div data-aos="fade-righ" data-aos-duration="1500">
+          <div>
             <p class="title-list-footer">Downloads</p>
             <ul class="list">
               <li>
@@ -765,22 +744,5 @@
         </div>
       </figure>
     </footer>
-
-    <!-- Bootstrap Script-->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Lib text Script -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-    <!-- Script dos icones de rede social -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
   </body>
 </html>
