@@ -69,149 +69,82 @@
 }
 
 .container-02 {
-  padding: 2rem;
-  gap: 2rem;
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-}
-.container-02 .about {
-  background-color: #292f36;
-  color: #fff;
-  padding: 2rem;
-  border-top-right-radius: 2rem;
-  border-bottom-left-radius: 2rem;
-}
-.container-02 .boxs-about {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 1rem;
-}
-.container-02 .card-left {
-  border-left: 0.5rem solid #292f36;
-  padding-left: 0.5rem;
-}
-.container-02 .card-right {
-  text-align: end;
-  border-right: 0.5rem solid #292f36;
-  padding-right: 0.5rem;
-  margin-top: 1rem;
-}
-.container-02 .title-card {
-  font-size: 1.5rem;
-}
-.container-02 .text-card {
-  font-size: 0.8rem;
-}
-.container-02 .btn {
-  background-color: #292f36;
-  color: #fff;
-}
-.container-02 .btn:hover {
-  transform: scale(1.1);
-}
-
-.container-03 .area-icons-tecnologys {
   display: flex;
   justify-content: center;
-  align-items: center;
+  padding: 0 2rem;
+  margin-top: 4rem;
 }
-.container-03 .icons-tecnologys {
+.container-02 .content-container-02 {
+  background-color: #292f36;
+  color: white;
+  padding: 2rem;
+  border-radius: 2rem;
+  max-width: 80vw;
+}
+.container-02 .content-container-02 .card-project-02,
+.container-02 .content-container-02 .card-project {
+  display: flex;
+  padding: 1rem;
+  max-width: 60rem;
+  margin-top: 2.5rem;
+}
+.container-02 .content-container-02 .card-project-02 .area-img-project,
+.container-02 .content-container-02 .card-project .area-img-project {
+  display: flex;
+  justify-content: center;
+}
+.container-02 .content-container-02 .card-project-02 .content-card,
+.container-02 .content-container-02 .card-project .content-card {
   display: flex;
   flex-direction: column;
-  width: 35%;
-  white-space: nowrap;
-  overflow: hidden;
-  mask-image: linear-gradient(to right, transparent, black 20%, black 80%, transparent);
-}
-.container-03 .slide-tecnologys-01 {
-  display: inline-block;
-  animation: anima 15s linear infinite;
-}
-@keyframes anima {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
-}
-.container-03 .slide-tecnologys-02 {
-  display: inline-block;
-  animation: anima-reverse 15s linear infinite;
-}
-@keyframes anima-reverse {
-  0% {
-    transform: translateX(-50%);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-.container-03 .icon-tec {
-  height: 7rem;
-}
-.container-03 .image-tecnologys {
-  height: 25rem;
-}
-
-.container-04 {
-  background-color: #292f36;
-  padding: 3rem;
-  color: white;
-  display: flex;
-  justify-content: center;
   align-items: center;
-  border-top-left-radius: 4rem;
-  border-bottom-left-radius: 4rem;
-  margin-left: 2rem;
+  justify-content: space-around;
 }
-.container-04 .area-cards {
-  padding: 2rem 0;
+.container-02 .content-container-02 .card-project-02 .content-card .area-tecs-image,
+.container-02 .content-container-02 .card-project .content-card .area-tecs-image {
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
-  gap: 3rem;
+  gap: 1rem;
 }
-.container-04 .card {
-  background-color: #292f36;
-  color: #fff;
-  border: none;
-  width: 20rem;
+.container-02 .content-container-02 .card-project-02 .content-card .area-tecs-image .tec-img,
+.container-02 .content-container-02 .card-project .content-card .area-tecs-image .tec-img {
+  height: 2rem;
+  width: 2rem;
 }
-.container-04 .card-link {
-  text-decoration: none !important;
-  color: #fff;
+.container-02 .content-container-02 .card-project-02 .content-card .area-links,
+.container-02 .content-container-02 .card-project .content-card .area-links {
+  display: flex;
+  gap: 2rem;
 }
-.container-04 .card-link a:hover .card-body {
-  color: #fff !important;
-}
-.container-04 .card-link a:visited .card-body {
-  color: #fff !important;
-}
-.container-04 .card-link a:active .card-body {
-  color: #fff !important;
-}
-.container-04 .subtext-container-04 .text-projects a {
+.container-02 .content-container-02 .card-project-02 .content-card .area-links a,
+.container-02 .content-container-02 .card-project .content-card .area-links a {
   text-decoration: none;
   color: #fff;
 }
-.container-04 .subtext-container-04 .text-projects a:hover {
-  border-bottom: 2px solid #fff;
+.container-02 .content-container-02 .card-project-02 .content-card .area-links a:hover,
+.container-02 .content-container-02 .card-project .content-card .area-links a:hover {
+  scale: 1.1;
 }
-.container-04 .subtext-container-04 .text-projects a:hover .subtext-container-04 {
+.container-02 .content-container-02 .card-project-02 .content-card .area-links a:hover .content-card,
+.container-02 .content-container-02 .card-project .content-card .area-links a:hover .content-card {
   color: #fff;
 }
-.container-04 .subtext-container-04 .text-projects a:visited .subtext-container-04 {
+.container-02 .content-container-02 .card-project-02 .content-card .area-links a:visited .content-card,
+.container-02 .content-container-02 .card-project .content-card .area-links a:visited .content-card {
   color: #fff;
 }
-.container-04 .subtext-container-04 .text-projects a:active .subtext-container-04 {
+.container-02 .content-container-02 .card-project-02 .content-card .area-links a:active .content-card,
+.container-02 .content-container-02 .card-project .content-card .area-links a:active .content-card {
   color: #fff;
+}
+.container-02 .content-container-02 .card-project-02 {
+  margin-left: 30%;
 }
 
 .footer {
-  background-color: white;
-  color: #292f36;
-  margin: 1rem 0 0 2rem;
+  margin-top: 3rem;
+  background-color: #292f36;
+  color: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -241,13 +174,13 @@
   color: inherit;
 }
 .footer .content-footer-lists .footer-lists .list a:hover .link-footer {
-  color: #292f36;
+  color: #ffffff;
 }
 .footer .content-footer-lists .footer-lists .list a:visited .link-footer {
-  color: #292f36;
+  color: #ffffff;
 }
 .footer .content-footer-lists .footer-lists .list a:active .link-footer {
-  color: #292f36;
+  color: #ffffff;
 }
 .footer .content-footer-lists .title-list-footer {
   font-weight: bold;
@@ -261,6 +194,10 @@
   justify-content: center;
   animation: UpAndDown 2s infinite ease-in-out;
 }
+.footer .icon-back-to-top img {
+  background-color: #ffffff;
+  border-radius: 50%;
+}
 @keyframes UpAndDown {
   0% {
     transform: translateY(0);
@@ -273,6 +210,40 @@
   }
 }
 
+@media (max-width: 1249px) {
+  .container-02 {
+    display: flex;
+  }
+  .container-02 .content-container-02 {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-02 .content-container-02 .card-project {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-02 .content-container-02 .card-project .tec-img {
+    height: 0.5rem;
+  }
+  .container-02 .content-container-02 .card-project-02 {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 0;
+  }
+  .container-02 .content-container-02 .img-project {
+    width: 22rem;
+  }
+  .container-02 .content-container-02 .area-tecs-image {
+    flex-direction: column;
+  }
+  .container-02 .content-container-02 .area-tecs-image .tecs {
+    display: flex;
+    justify-content: space-around;
+  }
+  .container-02 .content-container-02 .area-links {
+    margin-top: 1rem;
+  }
+}
 @media (max-width: 768px) {
   .header #title-header {
     font-size: 1.7rem !important;
@@ -302,19 +273,8 @@
     padding-bottom: 1rem;
     padding-right: 2rem;
   }
-  .container-02 {
-    display: flex;
-    flex-direction: column;
-  }
-  .container-03 .area-icons-tecnologys {
-    display: flex;
-    flex-direction: column;
-  }
-  .container-03 .icons-tecnologys {
-    width: 80%;
-  }
-  .container-03 .image-tecnologys {
-    height: 15rem;
+  .container-02 .content-container-02 .img-project {
+    width: 22rem;
   }
   .footer {
     text-align: center;
@@ -329,24 +289,26 @@
     padding-left: 1rem;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .header #title-header {
     font-size: 1rem !important;
   }
   .container-01 .content-container-01 .area-avatar img {
     height: 15rem;
   }
-  .container-03 .subtitle-container-03 {
-    font-size: 1rem;
-  }
-  .container-04 .area-cards .card {
-    width: 14rem;
+  .container-02 .content-container-02 .img-project {
+    width: 16rem;
   }
 }
-@media (max-width: 320px) {
-  .container-04 {
-    margin-left: 0.5rem;
+@media (max-width: 375px) {
+  .container-02 .content-container-02 .img-project {
+    width: 13rem;
+  }
+}
+@media (max-width: 375px) {
+  .container-02 .content-container-02 .img-project {
+    width: 10rem;
   }
 }
 
-/*# sourceMappingURL=home.css.map */
+/*# sourceMappingURL=projects.css.map */
