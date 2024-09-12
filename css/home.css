@@ -254,10 +254,50 @@
   color: #fff;
 }
 
-.footer {
-  background-color: white;
+.area-contact-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
   color: #292f36;
-  margin: 1rem 0 0 2rem;
+}
+.area-contact-me .img-contact-me {
+  height: 25rem;
+}
+.area-contact-me .contact-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.area-contact-me .contact-me .icons-container-01 {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.area-contact-me .contact-me .content-texts a {
+  text-decoration: none;
+  color: #292f36;
+}
+.area-contact-me .contact-me .icon-social-midea {
+  color: #292f36;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  vertical-align: middle;
+  font-size: 2rem;
+}
+.area-contact-me .contact-me .text-icons a:hover .icon-social-midea {
+  color: #292f36;
+}
+.area-contact-me .contact-me .text-icons a:visited .icon-social-midea {
+  color: #292f36;
+}
+.area-contact-me .contact-me .text-icons a:active .icon-social-midea {
+  color: #292f36;
+}
+
+.footer {
+  background-color: #292f36;
+  color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -306,6 +346,10 @@
   display: flex;
   justify-content: center;
   animation: UpAndDown 2s infinite ease-in-out;
+}
+.footer .icon-back-to-top img {
+  background-color: #fff;
+  border-radius: 50%;
 }
 @keyframes UpAndDown {
   0% {
@@ -373,6 +417,9 @@
   .container-03 .image-tecnologys {
     height: 15rem;
   }
+  .area-contact-me .img-contact-me {
+    height: 15rem;
+  }
   .footer {
     text-align: center;
     font-size: 14px;
@@ -405,6 +452,15 @@
   }
   .container-04 .area-cards .card {
     width: 14rem;
+  }
+  .area-contact-me {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
+  .area-contact-me .contact-me .text-contact-me {
+    font-size: 5rem;
   }
 }
 @media (max-width: 320px) {
