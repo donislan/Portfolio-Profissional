@@ -68,27 +68,28 @@
   color: white;
 }
 
-.container-02 {
+.container-02 .main-content-container-02 {
   padding: 2rem;
   gap: 2rem;
   display: grid;
   grid-template-columns: 2fr 1fr;
 }
-.container-02 .about {
+.container-02 .main-content-container-02 .about {
   background-color: #292f36;
   color: #fff;
   padding: 2rem;
   border-top-right-radius: 2rem;
   border-bottom-left-radius: 2rem;
 }
-.container-02 .area-animated-soft-skills {
+.container-02 .main-content-container-02 .area-animated-soft-skills {
   display: flex;
+  justify-content: center;
   align-items: center;
 }
-.container-02 .area-animated-soft-skills .main-area-soft-skills {
+.container-02 .main-content-container-02 .area-animated-soft-skills .main-area-soft-skills {
   display: flex;
 }
-.container-02 .area-animated-soft-skills .main-area-soft-skills .area-soft-skills {
+.container-02 .main-content-container-02 .area-animated-soft-skills .main-area-soft-skills .area-soft-skills {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -97,13 +98,13 @@
   overflow: hidden;
   mask-image: linear-gradient(to right, transparent, black 20%, black 80%, transparent);
 }
-.container-02 .area-animated-soft-skills .main-area-soft-skills .area-soft-skills .slide-01,
-.container-02 .area-animated-soft-skills .main-area-soft-skills .area-soft-skills .slide-03 {
+.container-02 .main-content-container-02 .area-animated-soft-skills .main-area-soft-skills .area-soft-skills .slide-01,
+.container-02 .main-content-container-02 .area-animated-soft-skills .main-area-soft-skills .area-soft-skills .slide-03 {
   display: flex;
   gap: 2rem;
   animation: anima 10s linear infinite;
 }
-.container-02 .area-animated-soft-skills .main-area-soft-skills .area-soft-skills .slide-02 {
+.container-02 .main-content-container-02 .area-animated-soft-skills .main-area-soft-skills .area-soft-skills .slide-02 {
   display: flex;
   gap: 2rem;
   animation: anima-reverse 10s linear infinite;
@@ -392,11 +393,11 @@
     padding-bottom: 1rem;
     padding-right: 2rem;
   }
-  .container-02 {
+  .container-02 .main-content-container-02 {
     display: flex;
     flex-direction: column;
   }
-  .container-02 .area-animated-soft-skills {
+  .container-02 .main-content-container-02 .area-animated-soft-skills {
     display: flex;
     justify-content: center;
   }
@@ -440,11 +441,11 @@
   .container-01 .content-container-01 .area-avatar img {
     height: 15rem;
   }
-  .container-02 .area-animated-soft-skills {
+  .container-02 .main-content-container-02 .area-animated-soft-skills {
     display: flex;
     justify-content: center;
   }
-  .container-02 .area-animated-soft-skills .main-area-soft-skills .area-soft-skills {
+  .container-02 .main-content-container-02 .area-animated-soft-skills .main-area-soft-skills .area-soft-skills {
     max-width: 16rem;
   }
   .container-03 .subtitle-container-03 {

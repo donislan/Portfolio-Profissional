@@ -78,52 +78,55 @@
 }
 
 .container-02 {
-  padding: 2rem;
-  gap: 2rem;
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-
-  .about {
-    background-color: $main-color;
-    color: $primary-color;
+  .main-content-container-02 {
     padding: 2rem;
-    border-top-right-radius: 2rem;
-    border-bottom-left-radius: 2rem;
-  }
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 
-  .area-animated-soft-skills {
-    display: flex;
-    align-items: center;
+    .about {
+      background-color: $main-color;
+      color: $primary-color;
+      padding: 2rem;
+      border-top-right-radius: 2rem;
+      border-bottom-left-radius: 2rem;
+    }
 
-    .main-area-soft-skills {
+    .area-animated-soft-skills {
       display: flex;
+      justify-content: center;
+      align-items: center;
 
-      .area-soft-skills {
+      .main-area-soft-skills {
         display: flex;
-        align-items: center;
-        flex-direction: column;
-        max-width: 25rem;
-        white-space: nowrap;
-        overflow: hidden;
-        mask-image: linear-gradient(
-          to right,
-          transparent,
-          black 20%,
-          black 80%,
-          transparent
-        );
 
-        .slide-01,
-        .slide-03 {
+        .area-soft-skills {
           display: flex;
-          gap: 2rem;
-          animation: anima 10s linear infinite;
-        }
+          align-items: center;
+          flex-direction: column;
+          max-width: 25rem;
+          white-space: nowrap;
+          overflow: hidden;
+          mask-image: linear-gradient(
+            to right,
+            transparent,
+            black 20%,
+            black 80%,
+            transparent
+          );
 
-        .slide-02 {
-          display: flex;
-          gap: 2rem;
-          animation: anima-reverse 10s linear infinite;
+          .slide-01,
+          .slide-03 {
+            display: flex;
+            gap: 2rem;
+            animation: anima 10s linear infinite;
+          }
+
+          .slide-02 {
+            display: flex;
+            gap: 2rem;
+            animation: anima-reverse 10s linear infinite;
+          }
         }
       }
     }
@@ -483,12 +486,14 @@
   }
 
   .container-02 {
-    display: flex;
-    flex-direction: column;
-
-    .area-animated-soft-skills {
+    .main-content-container-02 {
       display: flex;
-      justify-content: center;
+      flex-direction: column;
+
+      .area-animated-soft-skills {
+        display: flex;
+        justify-content: center;
+      }
     }
   }
 
@@ -553,12 +558,14 @@
   }
 
   .container-02 {
-    .area-animated-soft-skills {
-      display: flex;
-      justify-content: center;
-      .main-area-soft-skills {
-        .area-soft-skills {
-          max-width: 16rem;
+    .main-content-container-02 {
+      .area-animated-soft-skills {
+        display: flex;
+        justify-content: center;
+        .main-area-soft-skills {
+          .area-soft-skills {
+            max-width: 16rem;
+          }
         }
       }
     }
